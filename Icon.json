@@ -1,0 +1,129 @@
+{
+  "name": "图标订阅",
+  "description": "自用图标",
+  "icons": [{
+      "name": "10000",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/10000.png"
+    },
+    {
+      "name": "10010",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/10010.png"
+    },
+    {
+      "name": "10086",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/10086.png"
+    },
+    {
+      "name": "adblock",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/adblock.png"
+    },
+    {
+      "name": "amap",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/amap.png"
+    },
+    {
+      "name": "auto",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/auto.png"
+    },
+    {
+      "name": "baidu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/baidu.png"
+    },
+    {
+      "name": "bilibili",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/bilibili.png"
+    },
+    {
+      "name": "caiyun",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/caiyun.png"
+    },
+    {
+      "name": "coolapk",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/coolapk.png"
+    },
+    {
+      "name": "final",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/final.png"
+    },
+    {
+      "name": "sg",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/sg.png"
+    },
+    {
+      "name": "hk",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/hk.png"
+    },
+    {
+      "name": "us",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/us.png"
+    },
+    {
+      "name": "jp",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/jp.png"
+    },
+    {
+      "name": "loon",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/loon.png"
+    },
+    {
+      "name": "meitu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/meitu.png"
+    },
+    {
+      "name": "meituan",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/meituan.png"
+    },
+    {
+      "name": "pinduoduo",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/pinduoduo.png"
+    },
+    {
+      "name": "safari",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/safari.png"
+    },
+    {
+      "name": "select",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/select.png"
+    },
+    {
+      "name": "wangyiyun",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/wangyiyun.png"
+    },
+    {
+      "name": "weather",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/weather.png"
+    },
+    {
+      "name": "weibo",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/weibo.png"
+    },
+    {
+      "name": "xianyu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/xianyu.png"
+    },
+    {
+      "name": "xiaohongshu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/xiaohongshu.png"
+    },
+    {
+      "name": "xueqiu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/xueqiu.png"
+    },
+    {
+      "name": "youtube",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/youtube.png"
+    },
+    {
+      "name": "zhihu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/zhihu.png"
+    },
+    {
+      "name": "qishui",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/qishui.png"
+    },
+    {
+      "name": "zhuanzhuan",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/zhuanzhuan.png"
+    }
+  ]
+}
