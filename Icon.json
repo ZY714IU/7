@@ -11,6 +11,10 @@
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/select.png"
     },
     {
+      "name": "final",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/final.png"
+    },
+    {
       "name": "auto",
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/auto.png"
     },
@@ -71,12 +75,16 @@
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/caiyun.png"
     },
     {
-      "name": "coolapk",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/coolapk.png"
+      "name": "weather",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/weather.png"
     },
     {
-      "name": "final",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/final.png"
+      "name": "safari",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/safari.png"
+    },
+    {
+      "name": "coolapk",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/coolapk.png"
     },
     {
       "name": "meitu",
@@ -95,16 +103,8 @@
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/qishui.png"
     },
     {
-      "name": "safari",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/safari.png"
-    },
-    {
       "name": "wangyiyun",
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/wangyiyun.png"
-    },
-    {
-      "name": "weather",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/weather.png"
     },
     {
       "name": "weibo",
