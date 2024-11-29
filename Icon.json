@@ -1,7 +1,36 @@
 {
   "name": "图标订阅",
   "description": "自用图标",
-  "icons": [{
+  "icons": [
+    {
+      "name": "loon",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/loon.png"
+    },
+    {
+      "name": "select",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/select.png"
+    },
+    {
+      "name": "auto",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/auto.png"
+    },
+    {
+      "name": "sg",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/sg.png"
+    },
+    {
+      "name": "hk",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/hk.png"
+    },
+    {
+      "name": "us",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/us.png"
+    },
+    {
+      "name": "jp",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/jp.png"
+    },
+    {
       "name": "10000",
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/10000.png"
     },
@@ -42,26 +71,6 @@
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/final.png"
     },
     {
-      "name": "sg",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/sg.png"
-    },
-    {
-      "name": "hk",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/hk.png"
-    },
-    {
-      "name": "us",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/us.png"
-    },
-    {
-      "name": "jp",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/jp.png"
-    },
-    {
-      "name": "loon",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/loon.png"
-    },
-    {
       "name": "meitu",
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/meitu.png"
     },
@@ -74,12 +83,12 @@
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/pinduoduo.png"
     },
     {
-      "name": "safari",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/safari.png"
+      "name": "qishui",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/qishui.png"
     },
     {
-      "name": "select",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/select.png"
+      "name": "safari",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/safari.png"
     },
     {
       "name": "wangyiyun",
@@ -112,10 +121,6 @@
     {
       "name": "zhihu",
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/zhihu.png"
-    },
-    {
-      "name": "qishui",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/qishui.png"
     },
     {
       "name": "zhuanzhuan",
