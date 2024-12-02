@@ -3,56 +3,56 @@
   "description": "自用图标",
   "icons": [
     {
-      "name": "loon",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/loon.png"
+      "name": "Loon",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Loon.png"
     },
     {
-      "name": "select",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/select.png"
+      "name": "Static",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Static.png"
     },
     {
-      "name": "final",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/final.png"
+      "name": "Final",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Final.png"
     },
     {
-      "name": "filter",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/filter.png"
+      "name": "Rule",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Rule.png"
     },
     {
-      "name": "auto",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/auto.png"
+      "name": "Auto",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Auto.png"
     },
     {
-      "name": "sg",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/sg.png"
+      "name": "SG",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/SG.png"
     },
     {
-      "name": "hk",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/hk.png"
+      "name": "HK",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/HK.png"
     },
     {
-      "name": "us",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/us.png"
+      "name": "US",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/US.png"
     },
     {
-      "name": "jp",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/jp.png"
+      "name": "JP",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/JP.png"
     },
     {
-      "name": "node",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/node.png"
+      "name": "Node",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Node.png"
     },
     {
-      "name": "speedtest",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/speedtest.png"
+      "name": "SpeedTest",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/SpeedTest.png"
     },
     {
-      "name": "boxjs",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/boxjs.png"
+      "name": "BoxJs",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/BoxJs.png"
     },
     {
-      "name": "sub_store",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/sub_store.png"
+      "name": "SubStore",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/SubStore.png"
     },
     {
       "name": "10000",
@@ -67,84 +67,84 @@
       "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/10086.png"
     },
     {
-      "name": "ad",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/ad.png"
+      "name": "Ads",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Ads.png"
     },
     {
-      "name": "amap",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/amap.png"
+      "name": "Amap",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Amap.png"
     },
     {
-      "name": "baidu",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/baidu.png"
+      "name": "Baidu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Baidu.png"
     },
     {
-      "name": "bilibili",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/bilibili.png"
+      "name": "Bilibili",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Bilibili.png"
     },
     {
-      "name": "caiyun",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/caiyun.png"
+      "name": "ColorfulClouds",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/ColorfulClouds.png"
     },
     {
-      "name": "weather",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/weather.png"
+      "name": "Weather",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Weather.png"
     },
     {
-      "name": "safari",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/safari.png"
+      "name": "Safari",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Safari.png"
     },
     {
-      "name": "coolapk",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/coolapk.png"
+      "name": "Coolapk",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Coolapk.png"
     },
     {
-      "name": "meitu",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/meitu.png"
+      "name": "Meitu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Meitu.png"
     },
     {
-      "name": "meituan",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/meituan.png"
+      "name": "Meituan",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Meituan.png"
     },
     {
-      "name": "pinduoduo",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/pinduoduo.png"
+      "name": "Pinduoduo",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Pinduoduo.png"
     },
     {
-      "name": "qishui",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/qishui.png"
+      "name": "QishuiMusic",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/QishuiMusic.png"
     },
     {
-      "name": "wangyiyun",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/wangyiyun.png"
+      "name": "NetEaseCloudMusic",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/NetEaseCloudMusic.png"
     },
     {
-      "name": "weibo",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/weibo.png"
+      "name": "Weibo",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Weibo.png"
     },
     {
-      "name": "xianyu",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/xianyu.png"
+      "name": "Xianyu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Xianyu.png"
     },
     {
-      "name": "xiaohongshu",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/xiaohongshu.png"
+      "name": "Xiaohongshu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Xiaohongshu.png"
     },
     {
-      "name": "xueqiu",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/xueqiu.png"
+      "name": "Xueqiu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Xueqiu.png"
     },
     {
-      "name": "youtube",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/youtube.png"
+      "name": "YouTube",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/YouTube.png"
     },
     {
-      "name": "zhihu",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/zhihu.png"
+      "name": "Zhihu",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Zhihu.png"
     },
     {
-      "name": "zhuanzhuan",
-      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/zhuanzhuan.png"
+      "name": "Zhuanzhuan",
+      "url": "https://raw.githubusercontent.com/ZY714IU/7/refs/heads/main/Icon/Zhuanzhuan.png"
     }
   ]
 }
