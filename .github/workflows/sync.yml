@@ -1,52 +1,35 @@
 name: Auto Update GeoLite2-Country.mmdb
 
-# === 触发条件 ===
 on:
   schedule:
-    - cron: '0 2 * * *'  # 每天凌晨2点（UTC时间）自动执行
-  workflow_dispatch:      # 手动触发按钮
+    - cron: '0 2 * * *'  # 每天凌晨2点自动执行
+  workflow_dispatch:      # 手动触发
+
+# 👇 关键：授予 Actions 推送权限
+permissions:
+  contents: write
 
 jobs:
   update:
-    name: Download & Commit Latest GeoLite2-Country.mmdb
     runs-on: ubuntu-latest
 
     steps:
-      # === 1. 拉取你的仓库代码 ===
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # === 2. 下载最新 GeoLite2-Country.mmdb 文件 ===
-      - name: Download latest file
+      - name: Download latest GeoLite2-Country.mmdb
         run: |
           set -e
           echo "Downloading GeoLite2-Country.mmdb..."
-          # 主下载源
           curl -L --fail -o GeoLite2-Country.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb || (
             echo "Primary source failed, trying backup..."
-            # 备用镜像（如果有网络问题可切换）
             curl -L --fail -o GeoLite2-Country.mmdb https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb
           )
-          echo "✅ File downloaded successfully."
 
-      # === 3. 提交并推送变更到你的仓库 ===
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # 仅在文件内容有更新时提交
-          if git diff --quiet GeoLite2-Country.mmdb; then
-            echo "No changes detected. Skipping commit."
-            exit 0
-          fi
-
           git add GeoLite2-Country.mmdb
-          git commit -m "Auto update GeoLite2-Country.mmdb"
+          git commit -m "Auto update GeoLite2-Country.mmdb" || exit 0
           git push
-
-      # === 4. 日志信息 ===
-      - name: Display update info
-        run: |
-          echo "✅ GeoLite2-Country.mmdb 已更新到最新版本。"
-          echo "Repository: $GITHUB_REPOSITORY"
