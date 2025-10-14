@@ -1,8 +1,8 @@
-name: Force Update GeoLite2-Country.mmdb
+name: Force Update GeoLite2 GeoIP DBs
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # 每12小时更新一次
+    - cron: '0 */12 * * *'  # 每12小时自动更新
   workflow_dispatch:        # 支持手动触发
 
 jobs:
@@ -22,16 +22,24 @@ jobs:
 
       - name: Download GeoLite2-Country.mmdb
         run: |
-          echo "📥 下载最新 GeoLite2-Country.mmdb"
+          echo "📥 下载 GeoLite2-Country.mmdb"
           curl -L -o GeoLite2-Country.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb
           echo "文件信息:"
           ls -lh GeoLite2-Country.mmdb
           sha256sum GeoLite2-Country.mmdb
 
+      - name: Download GeoLite2-ASN.mmdb
+        run: |
+          echo "📥 下载 GeoLite2-ASN.mmdb"
+          curl -L -o GeoLite2-ASN.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb
+          echo "文件信息:"
+          ls -lh GeoLite2-ASN.mmdb
+          sha256sum GeoLite2-ASN.mmdb
+
       - name: Add files to git
         run: |
           echo "🧾 添加文件到 git"
-          git add GeoLite2-Country.mmdb
+          git add GeoLite2-Country.mmdb GeoLite2-ASN.mmdb
           echo "$(date '+%Y-%m-%d %H:%M:%S')" > .update_timestamp.txt
           git add .update_timestamp.txt
 
@@ -39,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Force update GeoLite2-Country.mmdb ($(date '+%Y-%m-%d %H:%M:%S'))" || echo "⚠️ 无变化可提交"
+          git commit -m "Force update GeoLite2 mmdbs ($(date '+%Y-%m-%d %H:%M:%S'))" || echo "⚠️ 无变化可提交"
           git push origin HEAD:main
 
       - name: Verification
@@ -48,5 +56,5 @@ jobs:
           echo "🧾 最近 commit:"
           git log -1 --oneline
           echo "✅ 文件状态:"
-          ls -lh GeoLite2-Country.mmdb
-          sha256sum GeoLite2-Country.mmdb
+          ls -lh GeoLite2-Country.mmdb GeoLite2-ASN.mmdb
+          sha256sum GeoLite2-Country.mmdb GeoLite2-ASN.mmdb
