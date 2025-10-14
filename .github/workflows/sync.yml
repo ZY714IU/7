@@ -2,34 +2,28 @@ name: Auto Update GeoLite2-Country.mmdb
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # 每天凌晨2点自动执行
-  workflow_dispatch:      # 手动触发
-
-# 👇 关键：授予 Actions 推送权限
-permissions:
-  contents: write
+    - cron: '0 */12 * * *' # 每12小时自动更新
+  workflow_dispatch: # 手动运行
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # ✅ 必须，允许提交更新
+
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Download latest GeoLite2-Country.mmdb
         run: |
-          set -e
-          echo "Downloading GeoLite2-Country.mmdb..."
-          curl -L --fail -o GeoLite2-Country.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb || (
-            echo "Primary source failed, trying backup..."
-            curl -L --fail -o GeoLite2-Country.mmdb https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb
-          )
+          curl -L -o GeoLite2-Country.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add GeoLite2-Country.mmdb
-          git commit -m "Auto update GeoLite2-Country.mmdb" || exit 0
+          git commit -m "Auto Update GeoLite2-Country.mmdb" || echo "No changes to commit"
           git push
