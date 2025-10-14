@@ -3,34 +3,52 @@ name: Force Replace GeoLite2-Country.mmdb
 on:
   schedule:
     - cron: '0 */12 * * *' # 每12小时自动更新
-  workflow_dispatch: # 支持手动运行
+  workflow_dispatch: # 支持手动触发
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # ✅ 允许推送更新
+      contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout main branch
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
 
       - name: Download latest GeoLite2-Country.mmdb
         run: |
-          echo "📥 正在下载最新 GeoLite2-Country.mmdb..."
+          echo "📥 下载最新 GeoLite2-Country.mmdb..."
           curl -L -o GeoLite2-Country.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb
+          echo "✅ 下载完成"
 
-      - name: Force commit and push changes
+      - name: Force replace GeoLite2-Country.mmdb
         run: |
-          echo "🧾 提交更新..."
+          echo "🧹 删除旧文件（如果存在）..."
+          git rm -f GeoLite2-Country.mmdb || true
+          echo "📦 添加新文件..."
+          git add GeoLite2-Country.mmdb
+          echo "$(date '+%Y-%m-%d %H:%M:%S')" > .update_timestamp.txt
+          git add .update_timestamp.txt
+
+      - name: Commit and push changes
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # 强制制造变化，确保总会有提交
-          touch GeoLite2-Country.mmdb
-          echo "$(date '+%Y-%m-%d %H:%M:%S')" > .update_timestamp.txt
-
-          git add GeoLite2-Country.mmdb .update_timestamp.txt
           git commit -m "Force Replace GeoLite2-Country.mmdb ($(date '+%Y-%m-%d %H:%M:%S'))" || echo "⚠️ 无变化可提交"
-          git push
+          git push origin HEAD:main
+
+      - name: Verification
+        run: |
+          echo "📅 执行时间: $(date)"
+          echo "📁 当前分支:"
+          git branch
+          echo "🧾 最近的提交:"
+          git log -1 --oneline
+          echo "✅ 文件状态:"
+          ls -lh GeoLite2-Country.mmdb
+          sha256sum GeoLite2-Country.mmdb
