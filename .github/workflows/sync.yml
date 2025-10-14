@@ -1,37 +1,52 @@
-name: Sync GeoLite2-Country.mmdb
+name: Auto Update GeoLite2-Country.mmdb
 
+# === 触发条件 ===
 on:
   schedule:
-    - cron: '0 16 * * *'  # 每天东京时间凌晨1点自动运行（UTC 16点）
-  workflow_dispatch:        # 可手动触发
+    - cron: '0 2 * * *'  # 每天凌晨2点（UTC时间）自动执行
+  workflow_dispatch:      # 手动触发按钮
 
 jobs:
-  sync:
+  update:
+    name: Download & Commit Latest GeoLite2-Country.mmdb
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout this repo
+      # === 1. 拉取你的仓库代码 ===
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download GeoLite2-Country.mmdb from upstream
+      # === 2. 下载最新 GeoLite2-Country.mmdb 文件 ===
+      - name: Download latest file
         run: |
-          RAW_URL="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb"
-          DEST="data/GeoLite2-Country.mmdb"
+          set -e
+          echo "Downloading GeoLite2-Country.mmdb..."
+          # 主下载源
+          curl -L --fail -o GeoLite2-Country.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb || (
+            echo "Primary source failed, trying backup..."
+            # 备用镜像（如果有网络问题可切换）
+            curl -L --fail -o GeoLite2-Country.mmdb https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb
+          )
+          echo "✅ File downloaded successfully."
 
-          mkdir -p "$(dirname "$DEST")"
-          curl -fsSL "$RAW_URL" -o "$DEST.new"
-
-          if [ -f "$DEST" ] && cmp -s "$DEST.new" "$DEST"; then
-            echo "No update needed."
-            exit 0
-          fi
-
-          mv "$DEST.new" "$DEST"
-
-      - name: Commit and push changes if any
+      # === 3. 提交并推送变更到你的仓库 ===
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/GeoLite2-Country.mmdb
-          git commit -m "Auto-sync GeoLite2-Country.mmdb $(date '+%Y-%m-%d %H:%M:%S')" || exit 0
+
+          # 仅在文件内容有更新时提交
+          if git diff --quiet GeoLite2-Country.mmdb; then
+            echo "No changes detected. Skipping commit."
+            exit 0
+          fi
+
+          git add GeoLite2-Country.mmdb
+          git commit -m "Auto update GeoLite2-Country.mmdb"
           git push
+
+      # === 4. 日志信息 ===
+      - name: Display update info
+        run: |
+          echo "✅ GeoLite2-Country.mmdb 已更新到最新版本。"
+          echo "Repository: $GITHUB_REPOSITORY"
