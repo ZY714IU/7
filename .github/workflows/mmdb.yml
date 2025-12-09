@@ -48,8 +48,8 @@ jobs:
         if: steps.diffcheck.outputs.changed == '1'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: latest
-          name: "Latest MMDB"
+          tag_name: mmdb-$(date +'%Y%m%d-%H%M%S')
+          name: "MMDB $(date +'%Y-%m-%d %H:%M:%S')"
           files: |
             Country-asn.mmdb
             Country-cn.mmdb
