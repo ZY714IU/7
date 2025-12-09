@@ -24,34 +24,12 @@ jobs:
       - name: Detect changes
         id: diffcheck
         run: |
+          # If manual run, force update
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run → force update"
+            echo "changed=1" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
           changed=0
-          [ -f Country-asn.mmdb ] && cmp -s new-asn.mmdb Country-asn.mmdb || changed=1
-          [ -f Country-cn.mmdb ]  && cmp -s new-cn.mmdb  Country-cn.mmdb  || changed=1
-          echo "changed=$changed" >> $GITHUB_OUTPUT
-
-      - name: Stop if no changes
-        if: steps.diffcheck.outputs.changed == '0'
-        run: echo "No changes, skip."
-
-      - name: Update main branch files
-        if: steps.diffcheck.outputs.changed == '1'
-        run: |
-          mv new-asn.mmdb Country-asn.mmdb
-          mv new-cn.mmdb Country-cn.mmdb
-          git config --global user.name github-actions
-          git config --global user.email github-actions@users.noreply.github.com
-          git add Country-asn.mmdb Country-cn.mmdb
-          git commit -m "Update MMDB $(date +'%Y-%m-%d %H:%M:%S')"
-          git push origin main
-
-      - name: Publish Release (overwrite)
-        if: steps.diffcheck.outputs.changed == '1'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: mmdb-$(date +'%Y%m%d-%H%M%S')
-          name: "MMDB $(date +'%Y-%m-%d %H:%M:%S')"
-          files: |
-            Country-asn.mmdb
-            Country-cn.mmdb
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          [ -f Country-asn
