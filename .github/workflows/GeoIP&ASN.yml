@@ -1,0 +1,57 @@
+name: Publish MMDB
+
+on:
+  schedule:
+    - cron: "0 19 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+
+      - name: Download latest MMDB from private repos
+        run: |
+          h="Authorization: token ${{ secrets.PAT }}"
+          curl -L -H "$h" -o new-asn.mmdb https://raw.githubusercontent.com/ZY714IU/geoip/release/Country-asn.mmdb
+          curl -L -H "$h" -o new-cn.mmdb https://raw.githubusercontent.com/ZY714IU/GeoIP/release/Country-cn.mmdb
+
+      - name: Detect changes
+        id: diffcheck
+        run: |
+          changed=0
+          [ -f Country-asn.mmdb ] && cmp -s new-asn.mmdb Country-asn.mmdb || changed=1
+          [ -f Country-cn.mmdb ]  && cmp -s new-cn.mmdb  Country-cn.mmdb  || changed=1
+          echo "changed=$changed" >> $GITHUB_OUTPUT
+
+      - name: Stop if no changes
+        if: steps.diffcheck.outputs.changed == '0'
+        run: echo "No changes, skip."
+
+      - name: Update main branch files
+        if: steps.diffcheck.outputs.changed == '1'
+        run: |
+          mv new-asn.mmdb Country-asn.mmdb
+          mv new-cn.mmdb Country-cn.mmdb
+          git config --global user.name github-actions
+          git config --global user.email github-actions@users.noreply.github.com
+          git add Country-asn.mmdb Country-cn.mmdb
+          git commit -m "Update MMDB $(date +'%Y-%m-%d %H:%M:%S')"
+          git push origin main
+
+      - name: Publish Release (overwrite)
+        if: steps.diffcheck.outputs.changed == '1'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: "Latest MMDB"
+          files: |
+            Country-asn.mmdb
+            Country-cn.mmdb
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
