@@ -14,79 +14,95 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout repository
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: Download source files
+      - name: Download all source files in parallel
         run: |
-          curl -fsSL -o Direct.list  https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Direct.txt
-          curl -fsSL -o Proxy.list   https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Proxy.txt
-          curl -fsSL -o China_Domain.list  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Domain.list
-          curl -fsSL -o China_Resolve.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Resolve.list
-          curl -fsSL -o Global_Domain.list  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Domain.list
-          curl -fsSL -o Global_Resolve.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Resolve.list
+          curl -fsSL -o Direct.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Direct.txt" &
+          curl -fsSL -o China_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Domain.list" &
+          curl -fsSL -o China_Resolve.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Resolve.list" &
+          curl -fsSL -o Proxy.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Proxy.txt" &
+          curl -fsSL -o Global_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Domain.list" &
+          curl -fsSL -o Global_Resolve.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Resolve.list" &
+          wait
 
-      - name: Build rules
+      - name: Generate China.txt
         run: |
           mkdir -p Rules
+          tmp=$(mktemp)
 
-          build () {
-            tmp=$(mktemp)
+          [ -s Direct.list ] && cat Direct.list >> "$tmp"
+          [ -s China_Domain.list ] && printf "\n\n" >> "$tmp" && cat China_Domain.list >> "$tmp"
+          [ -s China_Resolve.list ] && printf "\n\n" >> "$tmp" && cat China_Resolve.list >> "$tmp"
+          printf "\nGEOIP,CN\n" >> "$tmp"
 
-            for f in "$@"; do
-              [ -s "$f" ] && cat "$f" >> "$tmp" && printf "\n\n" >> "$tmp"
-            done
+          sed -i 's/\r$//' "$tmp"
+          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
 
-            sed -i 's/\r$//' "$tmp"
-            awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp"
-            rm -f "$tmp"
-          }
+          target="Rules/China.txt"
+          if [ -f "$target" ]; then
+            tail -n +4 "$target" > "${target}.rules"
+          else
+            touch "${target}.rules"
+          fi
 
-          {
-            build Direct.list China_Domain.list China_Resolve.list
-            echo "GEOIP,CN"
-          } > Rules/China.body
+          if cmp -s "$tmp" "${target}.rules"; then
+            echo "China.txt 无变化"
+          else
+            echo "China.txt 已更新"
+            echo "# Name: China.txt" > "$target"
+            echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')" >> "$target"
+            echo "" >> "$target"
+            cat "$tmp" >> "$target"
+          fi
 
-          build Proxy.list Global_Domain.list Global_Resolve.list > Rules/Global.body
+          rm -f "$tmp" "${target}.rules"
 
-      - name: Update files if changed
+      - name: Generate Global.txt
         run: |
-          update () {
-            name="$1"
-            body="$2"
-            target="Rules/$name.txt"
+          mkdir -p Rules
+          tmp=$(mktemp)
 
-            if [ -f "$target" ]; then
-              tail -n +4 "$target" > old
-            else
-              : > old
-            fi
+          [ -s Proxy.list ] && cat Proxy.list >> "$tmp"
+          [ -s Global_Domain.list ] && printf "\n\n" >> "$tmp" && cat Global_Domain.list >> "$tmp"
+          [ -s Global_Resolve.list ] && printf "\n\n" >> "$tmp" && cat Global_Resolve.list >> "$tmp"
 
-            if cmp -s "$body" old; then
-              echo "$name.txt 无变化"
-            else
-              {
-                echo "# Name: $name.txt"
-                echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')"
-                echo
-                cat "$body"
-              } > "$target"
-            fi
+          sed -i 's/\r$//' "$tmp"
+          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
 
-            rm -f old
-          }
+          target="Rules/Global.txt"
+          if [ -f "$target" ]; then
+            tail -n +4 "$target" > "${target}.rules"
+          else
+            touch "${target}.rules"
+          fi
 
-          update China  Rules/China.body
-          update Global Rules/Global.body
-          rm -f Rules/*.body *.list
+          if cmp -s "$tmp" "${target}.rules"; then
+            echo "Global.txt 无变化"
+          else
+            echo "Global.txt 已更新"
+            echo "# Name: Global.txt" > "$target"
+            echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')" >> "$target"
+            echo "" >> "$target"
+            cat "$tmp" >> "$target"
+          fi
 
-      - name: Commit
+          rm -f "$tmp" "${target}.rules"
+
+      - name: Cleanup temporary files
+        run: |
+          rm -f Direct.list China_Domain.list China_Resolve.list
+          rm -f Proxy.list Global_Domain.list Global_Resolve.list
+
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Rules/China.txt Rules/Global.txt
           git diff --staged --quiet || git commit -m "Update China.txt & Global.txt [skip ci]"
-          git push
+          git pull origin main --no-rebase
+          git push origin HEAD:main
