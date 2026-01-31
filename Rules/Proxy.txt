@@ -1,5 +1,3 @@
-
-
 # Others
 .anti-ad.net
 .actionnetwork.org
