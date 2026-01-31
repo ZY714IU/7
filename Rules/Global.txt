@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-02-01 03:39:35 CST
+# Updated: 2026-02-01 03:57:22 CST
 
 # Others
 .anti-ad.net
@@ -33089,3 +33089,4 @@ IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23c::/47
 IP-CIDR6,2001:b28:f23f::/48
 IP-CIDR6,2a0a:f280::/32
+
