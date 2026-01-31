@@ -1,6 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-02-01 04:03:41 CST
-
+# Updated: 2026-02-01 04:05:20 CST
 
 # Others
 .anti-ad.net
