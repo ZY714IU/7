@@ -1,5 +1,7 @@
 # Name: China.txt
-# Updated: 2026-02-01 04:05:20 CST
+# Updated: 2026-02-03 20:16:23 CST
+
+GEOIP,CN
 
 # Apple
 apple.comscoreresearch.com
@@ -3894,5 +3896,3 @@ IP-CIDR6,2a0b:b580::/48
 IP-CIDR6,2a0b:b581::/48
 IP-CIDR6,2a0b:b582::/48
 IP-CIDR6,2a0b:b583::/48
-
-GEOIP,CN
