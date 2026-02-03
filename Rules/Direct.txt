@@ -52,7 +52,6 @@ app-measurement.com
 .theiphonewiki.com
 .xiazaitool.com
 .xiageba.com
-DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,ckllk
 DOMAIN-KEYWORD,cupfox
 DOMAIN-KEYWORD,deepseek
