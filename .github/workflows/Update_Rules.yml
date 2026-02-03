@@ -35,10 +35,10 @@ jobs:
           mkdir -p Rules
           tmp=$(mktemp)
 
-          printf "GEOIP,CN\n" >> "$tmp"
-          [ -s Direct.list ] && printf "\n\n" >> "$tmp" && cat Direct.list >> "$tmp"
+          [ -s Direct.list ] && cat Direct.list >> "$tmp"
           [ -s China_Domain.list ] && printf "\n\n" >> "$tmp" && cat China_Domain.list >> "$tmp"
           [ -s China_Resolve.list ] && printf "\n\n" >> "$tmp" && cat China_Resolve.list >> "$tmp"
+          printf "\nGEOIP,CN\n" >> "$tmp"
 
           sed -i 's/\r$//' "$tmp"
           awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
