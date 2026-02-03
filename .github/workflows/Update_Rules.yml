@@ -8,6 +8,7 @@ on:
     paths:
       - "Rules/Direct.txt"
       - "Rules/Proxy.txt"
+      - ".github/workflows/Update_Rules.yml"
 
 jobs:
   update-rules:
