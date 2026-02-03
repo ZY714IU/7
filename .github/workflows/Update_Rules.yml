@@ -24,8 +24,8 @@ jobs:
       - name: Download all source files in parallel
         run: |
           curl -fsSL -o Direct.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Direct.txt" &
-          curl -fsSL -o China_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Domain.list" &
-          curl -fsSL -o China_Resolve.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Resolve.list" &
+          # curl -fsSL -o China_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Domain.list" &
+          # curl -fsSL -o China_Resolve.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Resolve.list" &
           curl -fsSL -o Proxy.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Proxy.txt" &
           curl -fsSL -o Global_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Domain.list" &
           curl -fsSL -o Global_Resolve.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Resolve.list" &
