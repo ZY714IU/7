@@ -1,5 +1,5 @@
 # Name: China.txt
-# Updated: 2026-02-03 21:03:15 CST
+# Updated: 2026-02-03 21:30:55 CST
 
 # Apple
 apple.comscoreresearch.com
@@ -55,7 +55,6 @@ app-measurement.com
 .theiphonewiki.com
 .xiazaitool.com
 .xiageba.com
-DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,ckllk
 DOMAIN-KEYWORD,cupfox
 DOMAIN-KEYWORD,deepseek
