@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-02-18 05:42:08 CST
+# Updated: 2026-02-20 05:40:17 CST
 
 # Others
 .anti-ad.net
@@ -149,14 +149,14 @@ DOMAIN-KEYWORD,xsus
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-02-18 02:20:49
+# UPDATED: 2026-02-20 02:20:22
 # DOMAIN: 118
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32772
+# DOMAIN-SUFFIX: 32798
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33088
+# TOTAL: 33114
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -4406,6 +4406,7 @@ DOMAIN-KEYWORD,xsus
 .bitchmomporn.com
 .bitchute.com
 .bitcoin.org
+.bitcoincore.org
 .bitcointalk.org
 .bitcoinworld.com
 .bitdefender.com
@@ -19668,6 +19669,7 @@ DOMAIN-KEYWORD,xsus
 .mortein.com.pk
 .morteincam.com
 .mos.ru
+.mosavi.io
 .mostly.jp
 .mostpopularpornsites.com
 .mosucloud.site
@@ -25317,12 +25319,14 @@ DOMAIN-KEYWORD,xsus
 .secretubes.com
 .sectigo.com
 .secure-paypal.info
+.securecloudtransformation.com
 .secureharvests.ac.uk
 .securepaypal.info
 .secureservercdn.net
 .securetunnel.com
 .securityinabox.org
 .securitykiss.com
+.securitypreview.com
 .seda.ac.uk
 .sedc.ac.uk
 .sedg.ac.uk
@@ -26883,6 +26887,7 @@ DOMAIN-KEYWORD,xsus
 .starfieldtech.com
 .starfishfx.com
 .starfox.com
+.stargazer-games.com
 .stark-verlag.ch
 .starlink.ac.uk
 .starott.com
@@ -26951,6 +26956,8 @@ DOMAIN-KEYWORD,xsus
 .steezylist.com
 .steganos.com
 .steganos.net
+.stellasora.global
+.stellasora.jp
 .stem.ac.uk
 .stemacademy.ac.uk
 .stemequals.ac.uk
@@ -28126,6 +28133,7 @@ DOMAIN-KEYWORD,xsus
 .threads.com
 .threads.net
 .threatchaos.com
+.threatlabz.com
 .thri.xxx
 .thrixxx.com
 .throughnightsfire.com
@@ -32308,6 +32316,7 @@ DOMAIN-KEYWORD,xsus
 .ymhsf1.top
 .ync.ne.jp
 .ynoproject.net
+.yo-star.com
 .yo1health.com
 .yobit.net
 .yobt.com
@@ -32337,6 +32346,9 @@ DOMAIN-KEYWORD,xsus
 .yorkstonemasonrycove.ac.uk
 .yorozoonews.jp
 .yoshisnewisland.com
+.yostar-pictures.co.jp
+.yostar.co.jp
+.yostarplat.com
 .you-get.org
 .you.com
 .youassporn.com
@@ -32734,6 +32746,8 @@ DOMAIN-KEYWORD,xsus
 .zdnet.com.tw
 .zdnet.redvideo.io
 .zdusercontent.com
+.zdxbeta.net
+.zdxcloud.net
 .zee.com
 .zee5.com
 .zee5.in
@@ -32889,8 +32903,20 @@ DOMAIN-KEYWORD,xsus
 .zorrovpn.com
 .zotero.org
 .zozotown.com
+.zpagov.net
+.zpath.com
 .zpn.im
 .zqqpwz.com
+.zscaler.com
+.zscaler.jp
+.zscaler.net
+.zscalerbeta.net
+.zscalergov.net
+.zscalerone.net
+.zscalershift.com
+.zscalerthree.net
+.zscalertwo.net
+.zscloud.net
 .zsdxzk.com
 .zsh.org
 .zspeeder.me
@@ -33051,14 +33077,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-02-18 02:20:49
+# UPDATED: 2026-02-20 02:20:22
 # DOMAIN: 118
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32772
+# DOMAIN-SUFFIX: 32798
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33088
+# TOTAL: 33114
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
