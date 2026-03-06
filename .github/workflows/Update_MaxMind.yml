@@ -1,4 +1,4 @@
-name: Update_MaxMind.yml
+name: Update MaxMind
 
 on:
   schedule:
@@ -11,23 +11,21 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
 
-      - name: Download MaxMind
-        env:
+      - env:
           LICENSE_KEY: ${{ secrets.MAXMIND_GEOLITE2_LICENSE }}
         run: |
-          mkdir -p Maxmind
-          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN&license_key=${LICENSE_KEY}&suffix=tar.gz" -o Maxmind/GeoLite2-ASN.tar.gz
-          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=${LICENSE_KEY}&suffix=zip" -o Maxmind/GeoLite2-ASN-CSV.zip
-          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=${LICENSE_KEY}&suffix=tar.gz" -o Maxmind/GeoLite2-Country.tar.gz
-          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=${LICENSE_KEY}&suffix=zip" -o Maxmind/GeoLite2-Country-CSV.zip
+          mkdir -p ./Maxmind
+          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN&license_key=${LICENSE_KEY}&suffix=tar.gz" -o ./Maxmind/GeoLite2-ASN.tar.gz
+          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=${LICENSE_KEY}&suffix=zip" -o ./Maxmind/GeoLite2-ASN-CSV.zip
+          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=${LICENSE_KEY}&suffix=tar.gz" -o ./Maxmind/GeoLite2-Country.tar.gz
+          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=${LICENSE_KEY}&suffix=zip" -o ./Maxmind/GeoLite2-Country-CSV.zip
 
-      - name: Commit and push
-        env:
-          PAT: ${{ secrets.PAT }}
-        run: |
+      - run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add Maxmind/*
-          git commit -m "update maxmind database" || echo "no change"
-          git push https://x-access-token:${PAT}@github.com/ZY714IU/7.git HEAD:main
+          git commit -m "update maxmind database" || exit 0
+          git push
