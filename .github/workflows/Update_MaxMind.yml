@@ -15,7 +15,7 @@ jobs:
 
       - name: Download MaxMind
         env:
-          LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
+          LICENSE_KEY: ${{ secrets.MAXMIND_GEOLITE2_LICENSE }}
         run: |
           mkdir -p Maxmind
 
@@ -24,11 +24,13 @@ jobs:
           curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=${LICENSE_KEY}&suffix=tar.gz" -o Maxmind/GeoLite2-Country.tar.gz
           curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=${LICENSE_KEY}&suffix=zip" -o Maxmind/GeoLite2-Country-CSV.zip
 
-      - name: Commit files
+      - name: Commit and Push
+        env:
+          PAT: ${{ secrets.PAT }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
 
           git add Maxmind/*
           git commit -m "update maxmind database" || echo "no change"
-          git push
+          git push https://x-access-token:${PAT}@github.com/ZY714IU/7.git HEAD:main
