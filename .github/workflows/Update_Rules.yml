@@ -3,7 +3,7 @@ name: Update China.txt & Global.txt
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 21 * * *"
+    - cron: "30 21 * * *"
   push:
     paths:
     # - "Rules/Direct.txt"
