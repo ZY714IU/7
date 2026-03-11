@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-03-10 05:51:54 CST
+# Updated: 2026-03-12 05:51:57 CST
 
 # Others
 .anti-ad.net
@@ -120,14 +120,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-10 02:18:28
+# UPDATED: 2026-03-12 02:20:05
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32905
+# DOMAIN-SUFFIX: 32906
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33222
+# TOTAL: 33223
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -7718,6 +7718,7 @@ IP-ASN,211157
 .cuv.ac.uk
 .cuwm.ac.uk
 .cvcp.ac.uk
+.cve.org
 .cvma.ac.uk
 .cvr.ac.uk
 .cvs.ac.uk
@@ -33156,14 +33157,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-10 02:18:28
+# UPDATED: 2026-03-12 02:20:05
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32905
+# DOMAIN-SUFFIX: 32906
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33222
+# TOTAL: 33223
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
