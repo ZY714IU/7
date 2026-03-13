@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-03-12 05:51:57 CST
+# Updated: 2026-03-14 05:52:51 CST
 
 # Others
 .anti-ad.net
@@ -120,14 +120,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-12 02:20:05
+# UPDATED: 2026-03-14 02:13:36
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32906
+# DOMAIN-SUFFIX: 32911
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33223
+# TOTAL: 33228
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -6888,10 +6888,12 @@ IP-ASN,211157
 .classicnike.com
 .classics.ac.uk
 .classymomsex.com
+.clau.de
 .claude.ai
 .claude.com
 .claudemcpclient.com
 .claudeusercontent.com
+.clawhub.ai
 .clb.org.hk
 .clc-london.ac.uk
 .clco.cc
@@ -13251,6 +13253,7 @@ IP-ASN,211157
 .h0930.com
 .h18ani1.vip
 .h1n1china.org
+.h2o.ai
 .h2porn.com
 .h528.com
 .h5dm.com
@@ -21928,6 +21931,7 @@ IP-ASN,211157
 .openbase.com
 .openbook.org.tw
 .opencas.io
+.openclaw.ai
 .opencollective.com
 .opencreate.org
 .opencritic.com
@@ -26068,6 +26072,7 @@ IP-ASN,211157
 .sinopitt.info
 .sinoquebec.com
 .sinto.ac.uk
+.sinyalee.com
 .sip.ac.uk
 .sipher.ac.uk
 .sipml5.org
@@ -33157,14 +33162,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-12 02:20:05
+# UPDATED: 2026-03-14 02:13:36
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32906
+# DOMAIN-SUFFIX: 32911
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33223
+# TOTAL: 33228
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
