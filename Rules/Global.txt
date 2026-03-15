@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-03-14 05:52:51 CST
+# Updated: 2026-03-15 08:59:05 CST
 
 # Others
 .anti-ad.net
@@ -40,7 +40,7 @@ DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,chinatalk
 DOMAIN-KEYWORD,fastapi
 DOMAIN-KEYWORD,hardwarezone
-DOMAIN-KEYWORD,ish
+# DOMAIN-KEYWORD,ish
 DOMAIN-KEYWORD,mod
 DOMAIN-KEYWORD,mtiproxy
 DOMAIN-KEYWORD,openai
