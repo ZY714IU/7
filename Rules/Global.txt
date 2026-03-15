@@ -1,7 +1,8 @@
 # Name: Global.txt
-# Updated: 2026-03-15 08:59:05 CST
+# Updated: 2026-03-15 09:11:59 CST
 
 # Others
+apk.ish.app
 .anti-ad.net
 .actionnetwork.org
 .asiafinancial.com
@@ -40,7 +41,6 @@ DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,chinatalk
 DOMAIN-KEYWORD,fastapi
 DOMAIN-KEYWORD,hardwarezone
-# DOMAIN-KEYWORD,ish
 DOMAIN-KEYWORD,mod
 DOMAIN-KEYWORD,mtiproxy
 DOMAIN-KEYWORD,openai
