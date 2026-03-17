@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-03-15 09:11:59 CST
+# Updated: 2026-03-18 05:58:18 CST
 
 # Others
 apk.ish.app
@@ -120,14 +120,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-14 02:13:36
+# UPDATED: 2026-03-18 02:21:41
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32911
+# DOMAIN-SUFFIX: 32915
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33228
+# TOTAL: 33232
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -7700,6 +7700,7 @@ IP-ASN,211157
 .cusp.ac.uk
 .cusp.hk
 .cusplondon.ac.uk
+.custhelp.com
 .custom-iphonecase.com
 .custombeatsbydrebuy.com
 .custombeatsdeals.com
@@ -21156,6 +21157,7 @@ IP-ASN,211157
 .nochubank.or.jp
 .nocn.ac.uk
 .nocs.ac.uk
+.nodeget.com
 .nodeimage.com
 .nodejs.org
 .nodequality.com
@@ -26692,6 +26694,7 @@ IP-ASN,211157
 .spiceworksstatic.com
 .spicybigtits.com
 .spicystory.net
+.spicywriter.com
 .spider.ac.uk
 .spideroak.com
 .spiderpool.com
@@ -31327,6 +31330,7 @@ IP-ASN,211157
 .worc.ac.uk
 .worcester.ac.uk
 .wordpress.com
+.wordpress.net
 .wordpress.org
 .wordpress.tv
 .work2icu.org
@@ -33162,14 +33166,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-14 02:13:36
+# UPDATED: 2026-03-18 02:21:41
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32911
+# DOMAIN-SUFFIX: 32915
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33228
+# TOTAL: 33232
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
