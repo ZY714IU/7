@@ -1,6 +1,7 @@
 # Others
 apk.ish.app
 .anti-ad.net
+.asiatimes.com
 .actionnetwork.org
 .asiafinancial.com
 .assetsconfigcdn.org
