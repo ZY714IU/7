@@ -1,9 +1,10 @@
 # Name: Global.txt
-# Updated: 2026-03-18 05:58:18 CST
+# Updated: 2026-03-18 19:37:03 CST
 
 # Others
 apk.ish.app
 .anti-ad.net
+.asiatimes.com
 .actionnetwork.org
 .asiafinancial.com
 .assetsconfigcdn.org
