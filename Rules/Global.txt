@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-03-26 05:58:05 CST
+# Updated: 2026-03-27 21:47:14 CST
 
 # Others
 apk.ish.app
@@ -19,6 +19,7 @@ apk.ish.app
 .forbes.com
 .geekflare.com
 .gsmarena.com
+.theglobeandmail.com
 .huobi.com
 .icct.cloud
 .ncloud.com
