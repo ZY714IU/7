@@ -16,6 +16,7 @@ apk.ish.app
 .forbes.com
 .geekflare.com
 .gsmarena.com
+.theglobeandmail.com
 .huobi.com
 .icct.cloud
 .ncloud.com
