@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-03-29 11:11:45 CST
+# Updated: 2026-03-30 05:51:39 CST
 
 # Others
 apk.ish.app
@@ -122,14 +122,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-28 02:20:43
+# UPDATED: 2026-03-30 02:12:09
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32950
+# DOMAIN-SUFFIX: 32949
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33267
+# TOTAL: 33266
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -24966,7 +24966,6 @@ IP-ASN,211157
 .s-nbcnews.com
 .s-rewards.hk
 .s-xoom.com
-.s.rmimg.com
 .s.team
 .s1heng.com
 .s1s1s1.com
@@ -33203,14 +33202,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-28 02:20:44
+# UPDATED: 2026-03-30 02:12:09
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32950
+# DOMAIN-SUFFIX: 32949
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33267
+# TOTAL: 33266
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
