@@ -1,9 +1,13 @@
-name: Update_MaxMind.yml
+name: Update MaxMind
 
 on:
   schedule:
     - cron: "30 21 * * 3"
   workflow_dispatch:
+
+concurrency:
+  group: update-maxmind
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -14,18 +18,43 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
 
-      - env:
+      - name: Download MaxMind databases
+        env:
           LICENSE_KEY: ${{ secrets.MAXMIND_GEOLITE2_LICENSE }}
         run: |
+          set -euo pipefail
           mkdir -p ./Maxmind
-          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN&license_key=${LICENSE_KEY}&suffix=tar.gz" -o ./Maxmind/GeoLite2-ASN.tar.gz
-          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=${LICENSE_KEY}&suffix=zip" -o ./Maxmind/GeoLite2-ASN-CSV.zip
-          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=${LICENSE_KEY}&suffix=tar.gz" -o ./Maxmind/GeoLite2-Country.tar.gz
-          curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=${LICENSE_KEY}&suffix=zip" -o ./Maxmind/GeoLite2-Country-CSV.zip
 
-      - run: |
+          BASE_URL="https://download.maxmind.com/app/geoip_download?license_key=${LICENSE_KEY}"
+
+          declare -A FILES=(
+            ["GeoLite2-ASN"]="tar.gz"
+            ["GeoLite2-ASN-CSV"]="zip"
+            ["GeoLite2-Country"]="tar.gz"
+            ["GeoLite2-Country-CSV"]="zip"
+          )
+
+          for edition in "${!FILES[@]}"; do
+            suffix="${FILES[$edition]}"
+            out="./Maxmind/${edition}.${suffix}"
+
+            echo "Downloading ${edition}..."
+            curl -fsSL --max-time 300 \
+              "${BASE_URL}&edition_id=${edition}&suffix=${suffix}" \
+              -o "${out}"
+
+            echo "Verifying ${edition}..."
+            expected=$(curl -fsSL --max-time 30 \
+              "${BASE_URL}&edition_id=${edition}&suffix=${suffix}.sha256" \
+              | awk '{print $1}')
+            echo "${expected}  ${out}" | sha256sum -c -
+          done
+
+      - name: Commit and push
+        run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add Maxmind/*
-          git commit -m "update maxmind database" || exit 0
+          git add Maxmind/
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update MaxMind databases $(date -u '+%Y-%m-%d')"
           git push
