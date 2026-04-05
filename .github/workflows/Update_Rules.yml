@@ -6,12 +6,7 @@ on:
     - cron: "30 21 * * *"
   push:
     paths:
-      - "Rules/Direct.txt"
-      - "Rules/Proxy.txt"
-      - "Rules/Loon/China.txt"
-      - "Rules/Loon/Global.txt"
-      - "Rules/Egern/China.txt"
-      - "Rules/Egern/Global.txt"
+      - "Rules/**/*.txt"
       - ".github/workflows/Update_Rules.yml"
 
 jobs:
@@ -29,10 +24,10 @@ jobs:
       - name: Download all source files in parallel
         run: |
           # Loon
-          curl -fsSL -o Direct.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Direct.txt" &
+          curl -fsSL -o Direct.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Loon/Direct.txt" &
           curl -fsSL -o China_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Domain.list" &
           curl -fsSL -o China_Resolve.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Resolve.list" &
-          curl -fsSL -o Proxy.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Proxy.txt" &
+          curl -fsSL -o Proxy.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Loon/Proxy.txt" &
           curl -fsSL -o Global_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Domain.list" &
           curl -fsSL -o Global_Resolve.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global_Resolve.list" &
 
