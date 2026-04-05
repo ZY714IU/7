@@ -1,8 +1,7 @@
 # Name: China.txt
-# Updated: 2026-04-05 12:53:20 CST
+# Updated: 2026-04-05 13:17:18 CST
 
 # Apple
-apple.comscoreresearch.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
@@ -33,7 +32,7 @@ IP-CIDR,198.183.17.0/24
 IP-CIDR,205.180.175.0/24
 
 # Others
-app-measurement.com
+DOMAIN,app-measurement.com
 DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,betahub.cn
 DOMAIN-SUFFIX,caiyuncdn.com
