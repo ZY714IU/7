@@ -6,7 +6,7 @@ on:
     - cron: "30 21 * * *"
   push:
     paths:
-    # - "Rules/Direct.txt"
+      - "Rules/Direct.txt"
       - "Rules/Proxy.txt"
       - ".github/workflows/Update_Rules.yml"
 
@@ -33,37 +33,37 @@ jobs:
           wait
 
       # China
-      # - name: Generate China.txt
-      #   run: |
-      #     mkdir -p Rules
-      #     tmp=$(mktemp)
-      #
-      #     [ -s Direct.list ] && cat Direct.list >> "$tmp"
-      #     [ -s China_Domain.list ] && printf "\n\n" >> "$tmp" && cat China_Domain.list >> "$tmp"
-      #     [ -s China_Resolve.list ] && printf "\n\n" >> "$tmp" && cat China_Resolve.list >> "$tmp"
-      #     printf "\nGEOIP,CN\n" >> "$tmp"
-      #
-      #     sed -i 's/\r$//' "$tmp"
-      #     awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
-      #
-      #     target="Rules/China.txt"
-      #     if [ -f "$target" ]; then
-      #       tail -n +4 "$target" > "${target}.rules"
-      #     else
-      #       touch "${target}.rules"
-      #     fi
-      #
-      #     if cmp -s "$tmp" "${target}.rules"; then
-      #       echo "China.txt 无变化"
-      #     else
-      #       echo "China.txt 已更新"
-      #       echo "# Name: China.txt" > "$target"
-      #       echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')" >> "$target"
-      #       echo "" >> "$target"
-      #       cat "$tmp" >> "$target"
-      #     fi
-      #
-      #     rm -f "$tmp" "${target}.rules"
+      - name: Generate China.txt
+        run: |
+          mkdir -p Rules
+          tmp=$(mktemp)
+
+          [ -s Direct.list ] && cat Direct.list >> "$tmp"
+          [ -s China_Domain.list ] && printf "\n\n" >> "$tmp" && cat China_Domain.list >> "$tmp"
+          [ -s China_Resolve.list ] && printf "\n\n" >> "$tmp" && cat China_Resolve.list >> "$tmp"
+          printf "\nGEOIP,CN\n" >> "$tmp"
+
+          sed -i 's/\r$//' "$tmp"
+          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
+
+          target="Rules/China.txt"
+          if [ -f "$target" ]; then
+            tail -n +4 "$target" > "${target}.rules"
+          else
+            touch "${target}.rules"
+          fi
+
+          if cmp -s "$tmp" "${target}.rules"; then
+            echo "China.txt 无变化"
+          else
+            echo "China.txt 已更新"
+            echo "# Name: China.txt" > "$target"
+            echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')" >> "$target"
+            echo "" >> "$target"
+            cat "$tmp" >> "$target"
+          fi
+
+          rm -f "$tmp" "${target}.rules"
 
       # Global
       - name: Generate Global.txt
@@ -106,8 +106,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Rules/China.txt
           git add Rules/Global.txt
-          # git add Rules/China.txt
-          git diff --staged --quiet || git commit -m "Update Global.txt [skip ci]"
+          git diff --staged --quiet || git commit -m "Update China.txt & Global.txt [skip ci]"
           git pull origin main --no-rebase
           git push origin HEAD:main
