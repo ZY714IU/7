@@ -35,7 +35,7 @@ jobs:
       # China
       - name: Generate China.txt
         run: |
-          mkdir -p Rules
+          mkdir -p Rules/Loon
           tmp=$(mktemp)
 
           [ -s Direct.list ] && cat Direct.list >> "$tmp"
@@ -46,7 +46,7 @@ jobs:
           sed -i 's/\r$//' "$tmp"
           awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
 
-          target="Rules/China.txt"
+          target="Rules/Loon/China.txt"
           if [ -f "$target" ]; then
             tail -n +4 "$target" > "${target}.rules"
           else
@@ -68,7 +68,7 @@ jobs:
       # Global
       - name: Generate Global.txt
         run: |
-          mkdir -p Rules
+          mkdir -p Rules/Loon
           tmp=$(mktemp)
 
           [ -s Proxy.list ] && cat Proxy.list >> "$tmp"
@@ -78,7 +78,7 @@ jobs:
           sed -i 's/\r$//' "$tmp"
           awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
 
-          target="Rules/Global.txt"
+          target="Rules/Loon/Global.txt"
           if [ -f "$target" ]; then
             tail -n +4 "$target" > "${target}.rules"
           else
@@ -106,8 +106,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add Rules/China.txt
-          git add Rules/Global.txt
+          git add Rules/Loon/China.txt
+          git add Rules/Loon/Global.txt
           git diff --staged --quiet || git commit -m "Update China.txt & Global.txt [skip ci]"
           git pull origin main --no-rebase
           git push origin HEAD:main
