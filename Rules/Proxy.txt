@@ -1,40 +1,40 @@
 # Others
-apk.ish.app
-.anti-ad.net
-.asiatimes.com
-.actionnetwork.org
-.asiafinancial.com
-.assetsconfigcdn.org
-.beyondwickedmapping.org
-.browser-intake-datadoghq.com
-.buff.ly
-.defensenews.com
-.dler.io
-.duckduckgo.com
-.featureassets.org
-.fifthdomain.com
-.forbes.com
-.geekflare.com
-.gsmarena.com
-.theglobeandmail.com
-.huobi.com
-.icct.cloud
-.ncloud.com
-.openai.com
-.phonearena.com
-.prodregistryv2.org
-.segment.io
-.sentry.io
-.skladchik.com
-.smsreceivefree.com
-.statsigapi.net
-.sub-stores.com
-.subapp.cc
-.subconverter.com
-.usnews.com
-.vercel.app
-.wsj.com
-.wallstreetcn.com
+DOMAIN,apk.ish.app
+DOMAIN-SUFFIX,anti-ad.net
+DOMAIN-SUFFIX,asiatimes.com
+DOMAIN-SUFFIX,actionnetwork.org
+DOMAIN-SUFFIX,asiafinancial.com
+DOMAIN-SUFFIX,assetsconfigcdn.org
+DOMAIN-SUFFIX,beyondwickedmapping.org
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN-SUFFIX,buff.ly
+DOMAIN-SUFFIX,defensenews.com
+DOMAIN-SUFFIX,dler.io
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,fifthdomain.com
+DOMAIN-SUFFIX,forbes.com
+DOMAIN-SUFFIX,geekflare.com
+DOMAIN-SUFFIX,gsmarena.com
+DOMAIN-SUFFIX,theglobeandmail.com
+DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,icct.cloud
+DOMAIN-SUFFIX,ncloud.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,phonearena.com
+DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,skladchik.com
+DOMAIN-SUFFIX,smsreceivefree.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,sub-stores.com
+DOMAIN-SUFFIX,subapp.cc
+DOMAIN-SUFFIX,subconverter.com
+DOMAIN-SUFFIX,usnews.com
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,wallstreetcn.com
 DOMAIN-KEYWORD,cili
 DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,chinatalk
@@ -50,11 +50,11 @@ DOMAIN-KEYWORD,webmaster
 DOMAIN-KEYWORD,xai
 
 # Opensubtitles
-.blazingcdn.net
-.opensubtitles.com
-.opensubtitles.org
-.pushmaster-in.xyz
-.scrubbingcenter.com
+DOMAIN-SUFFIX,blazingcdn.net
+DOMAIN-SUFFIX,opensubtitles.com
+DOMAIN-SUFFIX,opensubtitles.org
+DOMAIN-SUFFIX,pushmaster-in.xyz
+DOMAIN-SUFFIX,scrubbingcenter.com
 DOMAIN-KEYWORD,perfops
 
 # Pansearch
@@ -72,20 +72,20 @@ DOMAIN-KEYWORD,quantumult
 DOMAIN-KEYWORD,stash
 
 # Speedtest
-.cellmaps.com
-.ekahau.cloud
-.ekahau.com
-.ookla.com
-.ooklaserver.net
-.pingtest.net
-.speedtest.net
-.speedtestcustom.com
-.webtest.net
+DOMAIN-SUFFIX,cellmaps.com
+DOMAIN-SUFFIX,ekahau.cloud
+DOMAIN-SUFFIX,ekahau.com
+DOMAIN-SUFFIX,ookla.com
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,pingtest.net
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtestcustom.com
+DOMAIN-SUFFIX,webtest.net
 DOMAIN-KEYWORD,speedtest
 USER-AGENT,speedtest*
 
 # Stay
-.bugsnag.com
+DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-KEYWORD,craft
 DOMAIN-KEYWORD,easylist
 DOMAIN-KEYWORD,fanboy
@@ -94,12 +94,12 @@ DOMAIN-KEYWORD,shenyin
 DOMAIN-KEYWORD,stayfork
 
 # Telegram
-.cdn-telegram.org
-.comments.app
-.imem.app
-.mbrx.app
-.stel.com
-.swiftgram.app
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,imem.app
+DOMAIN-SUFFIX,mbrx.app
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,swiftgram.app
 DOMAIN-KEYWORD,applovin
 DOMAIN-KEYWORD,bingviz
 DOMAIN-KEYWORD,nicegram
