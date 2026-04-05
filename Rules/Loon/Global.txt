@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-04-05 15:01:32 CST
+# Updated: 2026-04-06 05:51:36 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -122,14 +122,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-02 02:20:09
-# DOMAIN: 119
+# UPDATED: 2026-04-06 02:12:21
+# DOMAIN: 120
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33083
+# DOMAIN-SUFFIX: 33127
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33400
+# TOTAL: 33445
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -3167,6 +3167,8 @@ IP-ASN,211157
 .autodeskworkshop.com
 .autodeskworkshop.net
 .autodraw.com
+.autoesporte.com
+.autoesporte.com.br
 .automaton-media.com
 .automobile.fr
 .automotive-cadcam.com
@@ -4183,6 +4185,7 @@ IP-ASN,211157
 .bhamcityuniversity.ac.uk
 .bhasvic.ac.uk
 .bhent.co.kr
+.bhfm.com.br
 .bhggn.xyz
 .bhpgms.ac.uk
 .bhpms.ac.uk
@@ -6060,6 +6063,7 @@ IP-ASN,211157
 .carryzhou.com
 .carshalton.ac.uk
 .carstagram.com
+.cartola.com.br
 .cartoon-sex.tv
 .cartoon18.com
 .cartoon3thumbs.com
@@ -6157,6 +6161,7 @@ IP-ASN,211157
 .cbcdc.ac.uk
 .cbi.ir
 .cbm.com.mm
+.cbn.com.br
 .cbpar.ac.uk
 .cbrl.ac.uk
 .cbs.ac.uk
@@ -6290,6 +6295,7 @@ IP-ASN,211157
 .cdnst.net
 .cdnuc.vip
 .cdnvideo.ru
+.cdnvideohub.com
 .cdnxxx-proxy.co
 .cdnxxx-proxy.xyz
 .cdp1989.org
@@ -9991,6 +9997,8 @@ IP-ASN,211157
 .episcopalchurch.org
 .episodic.com
 .epne.ac.uk
+.epoca.com.br
+.epocanegocios.com.br
 .epoch.cloud
 .epoch.org.il
 .epochbase.com
@@ -10191,6 +10199,7 @@ IP-ASN,211157
 .eskimotube.com
 .eslite.com
 .esm.run
+.esm.sh
 .esmarthealth.com
 .esmatube.com
 .esmtp.biz
@@ -11985,6 +11994,7 @@ IP-ASN,211157
 .g.kfd.me
 .g.page
 .g0v.social
+.g1.com.br
 .g1d1goob.xyz
 .g6hentai.com
 .gab.com
@@ -12550,7 +12560,14 @@ IP-ASN,211157
 .globalvoices.org
 .globalvoicesonline.org
 .globalvpn.net
+.globo.com
+.globo.com.br
 .globolakes.ac.uk
+.globoplay.com
+.globoplay.com.br
+.globoradio.com.br
+.globoreporter.com.br
+.globorural.com.br
 .glock.com
 .gloknos.ac.uk
 .gloporn.com
@@ -13227,6 +13244,8 @@ IP-ASN,211157
 .gscanada.info
 .gsccdn.com
 .gsearch.media
+.gshow.com
+.gshow.com.br
 .gslink.us
 .gsmd.ac.uk
 .gsmlondon.ac.uk
@@ -15396,6 +15415,7 @@ IP-ASN,211157
 .info-graf.fr
 .infocert.digital
 .infocert.it
+.infoglobo.com.br
 .infogov.ac.uk
 .infolinker.com.tw
 .infoq.jp
@@ -21825,6 +21845,8 @@ IP-ASN,211157
 .ogaoga.org
 .ogate.org
 .oge.ac.uk
+.oghost.com.br
+.oglobo.com.br
 .ogp.me
 .ogsa-dai.ac.uk
 .ohchr.org
@@ -22217,6 +22239,7 @@ IP-ASN,211157
 .oudoll.com
 .ouo.io
 .ouplaw.com
+.our-notes.jp
 .ourdearamy.com
 .ourhobby.com
 .ourjourney.ac.uk
@@ -22750,6 +22773,8 @@ IP-ASN,211157
 .peepholecam.com
 .peerj.com
 .peerlearning.ac.uk
+.pegn.com
+.pegn.com.br
 .peing.net
 .pejyyah.com
 .pekingduck.org
@@ -23046,6 +23071,7 @@ IP-ASN,211157
 .pjgirls.com
 .pjsekai.sega.jp
 .pk.com
+.pkgbuild.com
 .pki-post.ch
 .pki-posta.ch
 .pki-poste.ch
@@ -24231,6 +24257,7 @@ IP-ASN,211157
 .radio.garden
 .radioaustralia.net.au
 .radiofarda.com
+.radioglobo.com.br
 .radiohilight.net
 .radiojar.com
 .radioline.co
@@ -24681,6 +24708,13 @@ IP-ASN,211157
 .reuters.tv
 .reutersmedia.net
 .revenue-performance-management.com
+.revistaepoca.com
+.revistaepoca.com.br
+.revistagalileu.com.br
+.revistapegn.com
+.revistapegn.com.br
+.revistaquem.com.br
+.revistavalor.com.br
 .revit.com
 .revitcc.com
 .revitsucks.net
@@ -25851,6 +25885,7 @@ IP-ASN,211157
 .sgp1.fun
 .sgpe.ac.uk
 .sgpstatp.com
+.sgr.com.br
 .sgsah.ac.uk
 .sgscol.ac.uk
 .sgspe.de
@@ -27890,6 +27925,8 @@ IP-ASN,211157
 .techspot.com
 .techstreet.com
 .techtimes.com
+.techtudo.com
+.techtudo.com.br
 .techviz.net
 .techxtra.ac.uk
 .teck.in
@@ -29509,6 +29546,8 @@ IP-ASN,211157
 .umist.ac.uk
 .ums.ac.uk
 .umslg.ac.uk
+.umsoplaneta.com
+.umsoplaneta.com.br
 .umtc.ac.uk
 .unblock-us.com
 .unblockdmm.com
@@ -29822,6 +29861,10 @@ IP-ASN,211157
 .vagrantcloud.com
 .vagrantup.com
 .valeursactuelles.com
+.valor.com.br
+.valoreconomico.com.br
+.valorinveste.com
+.valorinveste.com.br
 .valoryirene.com
 .value-domain.com
 .value-server.com
@@ -32050,6 +32093,7 @@ IP-ASN,211157
 .xuehua.us
 .xuite.net
 .xujan.com
+.xuxaverso.com.br
 .xuzhiyong.net
 .xv-ru.com
 .xv1.monster
@@ -33327,6 +33371,7 @@ vsmarketplacebadge.apphb.com
 wetv.qq.com
 widgets.stripst.com
 wrds-www.wharton.upenn.edu
+ws.audioscrobbler.com
 www-cdn.icloud.com.akadns.net
 yandex-pogoda.static-storage.net
 yangzhi.app
@@ -33336,14 +33381,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-02 02:20:09
-# DOMAIN: 119
+# UPDATED: 2026-04-06 02:12:21
+# DOMAIN: 120
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33083
+# DOMAIN-SUFFIX: 33127
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 33400
+# TOTAL: 33445
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
