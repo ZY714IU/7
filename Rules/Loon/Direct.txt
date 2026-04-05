@@ -1,5 +1,4 @@
 # Apple
-apple.comscoreresearch.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
@@ -30,7 +29,7 @@ IP-CIDR,198.183.17.0/24
 IP-CIDR,205.180.175.0/24
 
 # Others
-app-measurement.com
+DOMAIN,app-measurement.com
 DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,betahub.cn
 DOMAIN-SUFFIX,caiyuncdn.com
@@ -107,4 +106,3 @@ IP-CIDR6,ff02::c/128
 IP-CIDR6,ff05::c/128
 IP-CIDR6,ff08::c/128
 IP-CIDR6,ff0e::c/128
-
