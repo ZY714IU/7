@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,gsmarena.com
 DOMAIN-SUFFIX,theglobeandmail.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,icct.cloud
+DOMAIN-SUFFIX,kelee.one
 DOMAIN-SUFFIX,ncloud.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,phonearena.com
