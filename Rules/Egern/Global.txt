@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-04-06 05:51:37 CST
+# Updated: 2026-04-07 07:44:48 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,gsmarena.com
 DOMAIN-SUFFIX,theglobeandmail.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,icct.cloud
+DOMAIN-SUFFIX,kelee.one
 DOMAIN-SUFFIX,ncloud.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,phonearena.com
