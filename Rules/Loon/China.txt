@@ -1,5 +1,5 @@
 # Name: China.txt
-# Updated: 2026-04-08 00:09:59 CST
+# Updated: 2026-04-08 00:17:23 CST
 
 # Apple
 DOMAIN-SUFFIX,apple.co
@@ -53,6 +53,7 @@ DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,semianalysis.com
 DOMAIN-SUFFIX,theiphonewiki.com
+DOMAIN-SUFFIX,volcvideos.com
 DOMAIN-SUFFIX,xiazaitool.com
 DOMAIN-SUFFIX,xiageba.com
 DOMAIN-SUFFIX,pages.dev
