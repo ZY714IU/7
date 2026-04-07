@@ -1,8 +1,9 @@
 # Name: China.txt
-# Updated: 2026-04-05 15:53:35 CST
+# Updated: 2026-04-07 14:03:40 CST
 
 # Apple
 DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,akadns.net
