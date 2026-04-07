@@ -1,5 +1,5 @@
 # Name: China.txt
-# Updated: 2026-04-07 14:03:40 CST
+# Updated: 2026-04-07 14:09:35 CST
 
 # Apple
 DOMAIN-SUFFIX,apple.co
@@ -3881,5 +3881,3 @@ USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
 USER-AGENT,hide*
 USER-AGENT,ting_en
-
-GEOIP,CN
