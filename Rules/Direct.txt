@@ -1,5 +1,6 @@
 # Apple
 DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,akadns.net
