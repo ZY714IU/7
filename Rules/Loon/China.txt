@@ -1,7 +1,8 @@
 # Name: China.txt
-# Updated: 2026-04-10 06:01:08 CST
+# Updated: 2026-04-28 07:07:43 CST
 
 # Apple
+DOMAIN,testflight.apple.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
