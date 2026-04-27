@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-04-26 05:56:59 CST
+# Updated: 2026-04-28 06:11:19 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -124,14 +124,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-26 02:16:21
+# UPDATED: 2026-04-28 02:28:40
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33749
+# DOMAIN-SUFFIX: 33751
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34071
+# TOTAL: 34073
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -14668,6 +14668,7 @@ IP-ASN,211157
 .hrsaz.com
 .hrsfc.ac.uk
 .hrtek.ru
+.hrtsea.com
 .hrw.org
 .hrweb.org
 .hsad.ac.uk
@@ -32691,6 +32692,7 @@ IP-ASN,211157
 .xtube.com
 .xtubebdsm.com
 .xtubezoo.com
+.xu97.vip
 .xuchao.net
 .xuchao.org
 .xuehua.us
@@ -34009,14 +34011,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-26 02:16:21
+# UPDATED: 2026-04-28 02:28:41
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33749
+# DOMAIN-SUFFIX: 33751
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34071
+# TOTAL: 34073
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt

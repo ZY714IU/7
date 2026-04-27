@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-04-26 05:56:59 CST
+# Updated: 2026-04-28 06:11:19 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -124,15 +124,15 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-26 02:16:20
+# UPDATED: 2026-04-28 02:28:40
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33749
+# DOMAIN-SUFFIX: 33751
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
 # USER-AGENT: 46
-# TOTAL: 34072
+# TOTAL: 34074
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -12206,6 +12206,7 @@ DOMAIN-SUFFIX,hrionline.ac.uk
 DOMAIN-SUFFIX,hrsaz.com
 DOMAIN-SUFFIX,hrsfc.ac.uk
 DOMAIN-SUFFIX,hrtek.ru
+DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,hsad.ac.uk
 DOMAIN-SUFFIX,hsbc-alternatives.de
 DOMAIN-SUFFIX,hsbc-transactionservices.de
@@ -26493,6 +26494,7 @@ DOMAIN-SUFFIX,xtegvk.xyz
 DOMAIN-SUFFIX,xtracloud.net
 DOMAIN-SUFFIX,xtubebdsm.com
 DOMAIN-SUFFIX,xtubezoo.com
+DOMAIN-SUFFIX,xu97.vip
 DOMAIN-SUFFIX,xujan.com
 DOMAIN-SUFFIX,xuxaverso.com.br
 DOMAIN-SUFFIX,xv-ru.com
