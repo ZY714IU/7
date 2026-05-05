@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-05-04 06:05:01 CST
+# Updated: 2026-05-06 06:29:02 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -124,14 +124,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-04 02:20:22
+# UPDATED: 2026-05-06 02:31:59
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33761
+# DOMAIN-SUFFIX: 33854
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34083
+# TOTAL: 34176
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -2224,6 +2224,8 @@ IP-ASN,211157
 .anti1984.com
 .antichristendom.com
 .anticipate.ac.uk
+.antiphishing.nl
+.antiphishing.ru
 .antiquity.ac.uk
 .antislavery.ac.uk
 .antislaverylaw.ac.uk
@@ -3367,6 +3369,7 @@ IP-ASN,211157
 .azattyk.org
 .azattyq.org
 .azatutyun.am
+.azbukainterneta.ru
 .azerbaycan.tv
 .azerimix.com
 .aziani.com
@@ -3419,6 +3422,7 @@ IP-ASN,211157
 .b-ok.global
 .b-ok.org
 .b0ne.com
+.b2c-digest.ru
 .b3boos.com
 .b6b33.com
 .b6fc.ac.uk
@@ -3511,6 +3515,7 @@ IP-ASN,211157
 .bamtoki.com
 .banan.tv
 .banana-vpn.com
+.bananacall.ru
 .banatal3arab.com
 .banatfun.com
 .banbury-bicester.ac.uk
@@ -4016,6 +4021,8 @@ IP-ASN,211157
 .beepool.com
 .beepool.org
 .bees.ac.uk
+.beesbfl.ru
+.beescrm.ru
 .beevpn.com
 .beforeigners.com
 .befuck.com
@@ -4345,6 +4352,7 @@ IP-ASN,211157
 .bimlibrary.com
 .bimm.ac.uk
 .bimmstudents.ac.uk
+.bimsaas.ru
 .bimseeker.com
 .bimsource.com
 .bimworld.com
@@ -5882,6 +5890,7 @@ IP-ASN,211157
 .calgonit.com
 .calibre-ebook.com
 .callabitch.org
+.callbackkiller.com
 .callersbane.com
 .callhulu.com
 .calls.ac.uk
@@ -6212,6 +6221,7 @@ IP-ASN,211157
 .cbc.ca
 .cbcdc.ac.uk
 .cbi.ir
+.cbkiller.com
 .cbm.com.mm
 .cbn.com.br
 .cbpar.ac.uk
@@ -6447,6 +6457,8 @@ IP-ASN,211157
 .ceri.ac.uk
 .cerlim.ac.uk
 .cern.ch
+.cert-gib.com
+.cert-gib.ru
 .certificat2.com
 .certificate-transparency.org
 .certinomis.com
@@ -7838,6 +7850,7 @@ IP-ASN,211157
 .cyber-bay.info
 .cyber-bay.org
 .cyber-college.ac.uk
+.cybercrimecon.com
 .cyberctm.com
 .cyberghostvpn.com
 .cybermondaybeats4sale.com
@@ -8522,6 +8535,7 @@ IP-ASN,211157
 .digitalid.ch
 .digitallifespan.ac.uk
 .digitalnomadsproject.org
+.digitalocean-ui.com
 .digitalocean.com
 .digitaloceanspaces.com
 .digitalpack.com
@@ -9880,6 +9894,9 @@ IP-ASN,211157
 .elgoog.im
 .elib.ac.uk
 .elifesciences.org
+.eligens.cl
+.eligens.com.br
+.eligens.io
 .elihe.ac.uk
 .elite.ac.uk
 .elite.com
@@ -10078,6 +10095,15 @@ IP-ASN,211157
 .envatousercontent.com
 .enveast.ac.uk
 .environment-health.ac.uk
+.envybox.company
+.envybox.family
+.envybox.io
+.envybox.kg
+.envybox.su
+.envycdp.com
+.envycdp.ru
+.envycrm.com
+.envyday.ru
 .eotarchive.org
 .epa.gov.tw
 .epac.to
@@ -10516,6 +10542,9 @@ IP-ASN,211157
 .f-secure.com
 .f2pool.com
 .f5pf.com
+.f6.dev
+.f6.ru
+.f6.security
 .f6988.com
 .f8.com
 .f95zone.to
@@ -10540,6 +10569,8 @@ IP-ASN,211157
 .facboox.com
 .faccebook.com
 .faccebookk.com
+.facct.email
+.facct.ru
 .facdbook.com
 .facdebook.com
 .face-book.com
@@ -12055,6 +12086,7 @@ IP-ASN,211157
 .futuhkapp.com
 .futuholdings.com
 .futunited.com
+.future-cs.ru
 .future-media.ac.uk
 .future-reserves-research.ac.uk
 .futurearmedforces.ac.uk
@@ -12092,6 +12124,10 @@ IP-ASN,211157
 .fzlm.com
 .fzlm.net
 .g-area.org
+.g-ib.ae
+.g-ib.ru
+.g-ib.sg
+.g-ib.us
 .g-queen.com
 .g-technology.com
 .g-tun.com
@@ -12367,6 +12403,7 @@ IP-ASN,211157
 .genesis.ac.uk
 .genesys.ac.uk
 .genet.ac.uk
+.genetic-technologies.am
 .geneticconstructor.com
 .geng8cn.xyz
 .gengba-av.mom
@@ -12377,6 +12414,11 @@ IP-ASN,211157
 .genkai-hounyo.com
 .genomeanalysiscentre.ac.uk
 .genomicsnetwork.ac.uk
+.genotek.am
+.genotek.es
+.genotek.eu
+.genotek.health
+.genotek.ru
 .genshin-porn.com
 .genshinh.com
 .gentoo.org
@@ -12529,6 +12571,10 @@ IP-ASN,211157
 .ghut.org
 .giantessbooru.com
 .giantessnight.com
+.gib-global.com
+.gib.sg
+.gibdev.net
+.gibtds.ru
 .gid.ru
 .giffgaff.com
 .giffgaff.design
@@ -13356,7 +13402,18 @@ IP-ASN,211157
 .groq.com
 .grotty-monday.com
 .ground.news
+.group-ib.ae
+.group-ib.co.uk
+.group-ib.com
+.group-ib.de
+.group-ib.eu
+.group-ib.ru
+.group-ib.sg
+.group-ib.us
 .groupfun.com
+.groupib.ae
+.groupib.sg
+.groupib.us
 .groups.com
 .grows.ac.uk
 .grpeng.ac.uk
@@ -15160,6 +15217,9 @@ IP-ASN,211157
 .ideal-teens.com
 .idealse.ac.uk
 .ideapocket.com
+.ideco.dev
+.ideco.ru
+.idecosoftware.ru
 .idelreal.org
 .idemocracy.asia
 .identi.ca
@@ -15637,6 +15697,7 @@ IP-ASN,211157
 .innovations.ac.uk
 .inoreader.com
 .inote.tw
+.inplat.ru
 .inporn.com
 .inquirer.net
 .inquisitionspostmortem.ac.uk
@@ -17204,6 +17265,7 @@ IP-ASN,211157
 .kik.com
 .kikdirty.com
 .killcovid2021.com
+.killercb.ru
 .killwall.com
 .kilmarnock.ac.uk
 .kilmeadeandfriends.com
@@ -17274,6 +17336,7 @@ IP-ASN,211157
 .kinokuniya.com
 .kinopoisk.ru
 .kinorium.com
+.kion.ru
 .kir.jp
 .kir2kos.net
 .kirbysepicyarn.com
@@ -19053,6 +19116,9 @@ IP-ASN,211157
 .mega.nz
 .megacamz.com
 .megafilmporno.com
+.megafon.com
+.megafon.ru
+.megafonpro.ru
 .megahdporno.net
 .megalodon.jp
 .megamarket.ru
@@ -19190,6 +19256,7 @@ IP-ASN,211157
 .mfmf.club
 .mfo.ac.uk
 .mfxmedia.com
+.mgfn.ru
 .mgo-images.com
 .mgo.com
 .mgoon.com
@@ -20036,6 +20103,7 @@ IP-ASN,211157
 .moray.ac.uk
 .morazzia.com
 .morbell.com
+.more.tv
 .moredun.ac.uk
 .moreheadphones.com
 .moresci.sale
@@ -20217,7 +20285,11 @@ IP-ASN,211157
 .mtec.ac.uk
 .mthruf.com
 .mti.ac.uk
+.mts-ws.net
+.mts.ru
+.mtsbank.ru
 .mtsdengi.ru
+.mtsmedia.ru
 .mtt.org
 .mtvnservices.com
 .mtw.tl
@@ -20396,6 +20468,7 @@ IP-ASN,211157
 .myeasytv.com
 .myebay.com
 .myeclipseide.com
+.myenvy.ru
 .myeplg.ac.uk
 .myerscough.ac.uk
 .myfappening.org
@@ -20476,6 +20549,7 @@ IP-ASN,211157
 .mymmode.com
 .mymoe.moe
 .mymom.info
+.mymts.ru
 .mymusclevideo.com
 .mymusic.net.tw
 .mynavi.jp
@@ -22204,6 +22278,7 @@ IP-ASN,211157
 .omscr.com
 .omsiirc.ac.uk
 .omy.sg
+.on-media.ru
 .on.cc
 .on.here
 .on2.com
@@ -24504,6 +24579,7 @@ IP-ASN,211157
 .quixel.com
 .quixel.se
 .quiz.directory
+.quizlink.ru
 .qumingwz.com
 .qumrancavesdispersed.ac.uk
 .quora.com
@@ -24969,6 +25045,7 @@ IP-ASN,211157
 .renzhe.cloud
 .repe21.com
 .repo.new
+.report-megafon.ru
 .repositorynet.ac.uk
 .repotama.com
 .repsils.no
@@ -25006,6 +25083,7 @@ IP-ASN,211157
 .restnproducts.ru
 .restore.ac.uk
 .restream-media.net
+.restream.ru
 .results.ac.uk
 .rethink.net
 .retimer.com
@@ -25235,6 +25313,7 @@ IP-ASN,211157
 .roshy.tv
 .roslin.ac.uk
 .rostaxi.org
+.rostelecom.ru
 .rothamsted.ac.uk
 .rotherham-coll.ac.uk
 .rotherham.ac.uk
@@ -25327,6 +25406,7 @@ IP-ASN,211157
 .rssmeme.com
 .rstatic.net
 .rt.com
+.rt.ru
 .rtalabel.org
 .rtbcdn.ru
 .rthk.hk
@@ -25445,6 +25525,7 @@ IP-ASN,211157
 .sa-saopaulo.tencentcos.com
 .sa.com
 .sa.hao123.com
+.saas-support.com
 .saasexch.cc
 .saasexch.co
 .saasexch.com
@@ -25693,6 +25774,7 @@ IP-ASN,211157
 .scarboroughuniversitycampus.ac.uk
 .scarboroughuniversitycentre.ac.uk
 .scarboroughuniversitycollege.ac.uk
+.scartel.ru
 .scasino.com
 .scat-enema.com
 .scat-japan.com
@@ -28125,6 +28207,7 @@ IP-ASN,211157
 .t.co
 .t.finance
 .t.me
+.t2.ru
 .t35.com
 .t66y.com
 .t91y.com
@@ -28408,6 +28491,7 @@ IP-ASN,211157
 .tehrantimes.com
 .tejaratbank.ir
 .tel.ac.uk
+.tele2.ru
 .telebay.com
 .telecomspace.com
 .telega.info
@@ -29571,6 +29655,7 @@ IP-ASN,211157
 .tvmost.com.hk
 .tvnaviweb.jp
 .tvof.ac.uk
+.tvoyodbo.online
 .tvplayvideos.com
 .tvpromise.com
 .tvu.ac.uk
@@ -31799,6 +31884,7 @@ IP-ASN,211157
 .whiterose-mechanisticbiology-dtp.ac.uk
 .whiterose-social-science-doctoral-training-centre.ac.uk
 .whiterose.ac.uk
+.whitesaas.com
 .whitexxxtube.com
 .who.int
 .whodns.xyz
@@ -31987,6 +32073,7 @@ IP-ASN,211157
 .wingy.site
 .winhec.com
 .winhec.net
+.wink.am
 .wink.ru
 .winncop.ac.uk
 .winning11.com
@@ -32542,14 +32629,18 @@ IP-ASN,211157
 .xn--74q434dwff.com
 .xn--74q434dwff.net
 .xn--7hv594h.com
+.xn--80a9a4b.xn--p1ai
 .xn--80aaazx1an0a.lol
 .xn--80aafgovrgbc7am.xn--p1ai
 .xn--80acbjgmges7ca.xn--p1ai
 .xn--80acbjgsdq2cl.xn--p1ai
+.xn--80aj3b.xn--p1ai
 .xn--80aqcf7a6do.com
+.xn--80arpq.xn--p1ai
 .xn--80asgb.xn--p1ai
 .xn--8uq428d76d.tokyo
 .xn--90ab.com
+.xn--90absjljw3g.xn--p1ai
 .xn--90aifd0az.shop
 .xn--90aifd0azb.xn--p1acf
 .xn--90wwvt03e.com
@@ -33277,6 +33368,8 @@ IP-ASN,211157
 .yostar-pictures.co.jp
 .yostar.co.jp
 .yostarplat.com
+.yota.ru
+.yotagamer.ru
 .you-get.org
 .you.com
 .youassporn.com
@@ -34021,14 +34114,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-04 02:20:22
+# UPDATED: 2026-05-06 02:31:59
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33761
+# DOMAIN-SUFFIX: 33854
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34083
+# TOTAL: 34176
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
