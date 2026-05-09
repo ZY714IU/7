@@ -1,5 +1,5 @@
 # Name: China.txt
-# Updated: 2026-04-28 21:14:37 CST
+# Updated: 2026-05-10 06:04:51 CST
 
 # Apple
 DOMAIN,testflight.apple.com
@@ -119,14 +119,14 @@ IP-CIDR6,ff0e::c/128
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-10 02:24:17
-# DOMAIN: 20
+# UPDATED: 2026-05-10 02:21:40
+# DOMAIN: 17
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3677
+# DOMAIN-SUFFIX: 3676
 # IP-CIDR: 17
 # IP-CIDR6: 4
 # USER-AGENT: 31
-# TOTAL: 3758
+# TOTAL: 3754
 .00cdn.com
 .0123456789.com
 .0379home.com
@@ -2051,7 +2051,6 @@ IP-CIDR6,ff0e::c/128
 .jiazhao.com
 .jibencaozuo.com
 .jidian.im
-.jiedaibao.gs
 .jiemeng8.com
 .jiemian.com
 .jikeiot.cloud
@@ -3805,7 +3804,6 @@ IP-CIDR6,ff0e::c/128
 analytics.strava.com
 blzddist1-a.akamaihd.net
 cdn.angruo.com
-cdn.lilyemby.com
 client.amplifi.com
 download.jetbrains.com
 download.microsoft.com
@@ -3815,10 +3813,8 @@ kc.kexinshe.com
 ntservicepack.microsoft.com
 origin-a.akamaihd.ne
 origin-a.akamaihd.net
-smart.uhdnow.com
 sms.imagetasks.com
 steamcommunity-a.akamaihd.net
-tx.lilyemby.com
 weixin.com
 www.libvideo.com
 www.yxssp.com
@@ -3826,14 +3822,14 @@ www.yxssp.com
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-10 02:24:17
-# DOMAIN: 20
+# UPDATED: 2026-05-10 02:21:40
+# DOMAIN: 17
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3677
+# DOMAIN-SUFFIX: 3676
 # IP-CIDR: 17
 # IP-CIDR6: 4
 # USER-AGENT: 31
-# TOTAL: 3758
+# TOTAL: 3754
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,ms
 DOMAIN-KEYWORD,.tmall.com
