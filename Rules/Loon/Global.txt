@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-05-12 06:31:10 CST
+# Updated: 2026-05-14 06:42:05 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -124,14 +124,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-12 02:39:30
+# UPDATED: 2026-05-14 02:39:24
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33903
+# DOMAIN-SUFFIX: 33990
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34225
+# TOTAL: 34312
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -921,6 +921,7 @@ IP-ASN,211157
 .abs.ac.uk
 .abs.edu
 .absoluporn.com
+.absolutbank.ru
 .absolutewhores.com
 .ac-pocketcamp.com
 .ac.ir
@@ -1650,6 +1651,7 @@ IP-ASN,211157
 .akastream.com
 .akastream.net
 .akatns.net
+.akbars.ru
 .akiba-online.com
 .akiba-souken.com
 .akiba-web.com
@@ -1672,6 +1674,7 @@ IP-ASN,211157
 .alchemysynth.com
 .alcs.ac.uk
 .aldinhe.ac.uk
+.alefbank.com
 .alexa.com
 .alexanderlondoncollege.ac.uk
 .alexanderstreet.com
@@ -2182,6 +2185,7 @@ IP-ASN,211157
 .aniscartujo.com
 .anistreaming.xyz
 .ankarazirvesi2018.com
+.ankb.ru
 .ankiuser.net
 .ankiweb.net
 .anm.co.uk
@@ -2850,6 +2854,7 @@ IP-ASN,211157
 .ashridge.ac.uk
 .ashtoninstitute.ac.uk
 .asia-gaming.com
+.asia-pay.ru
 .asiabrox.ac.uk
 .asiacrazy.xyz
 .asiaharvest.org
@@ -2953,6 +2958,7 @@ IP-ASN,211157
 .at.ua
 .atandt.com
 .atasale.com
+.atb.su
 .atc.org.au
 .atchinese.com
 .atdmt2.com
@@ -3199,6 +3205,7 @@ IP-ASN,211157
 .autodraw.com
 .autoesporte.com
 .autoesporte.com.br
+.autokreditbank.ru
 .automaton-media.com
 .automobile.fr
 .automotive-cadcam.com
@@ -3226,6 +3233,7 @@ IP-ASN,211157
 .av6k.vip
 .avaaz.org
 .avail.googleflights.net
+.avangard.ru
 .avant.ac.uk
 .avast.com
 .avatara.com
@@ -3245,6 +3253,7 @@ IP-ASN,211157
 .avdwang.xyz
 .avelip.com
 .aventertainments.com
+.aversbank.ru
 .avfantasy.com
 .avfox.cc
 .avg.com
@@ -3549,7 +3558,11 @@ IP-ASN,211157
 .bangumi.tv
 .bangyoulater.com
 .bangyourwife.com
+.bank-arzamas.ru
+.bank-credit-suisse-moscow.ru
 .bank-maskan.ir
+.bank131.com
+.bankermak.ru
 .bankline.ru
 .bankmellat.ir
 .bankmobilevibe.com
@@ -3662,6 +3675,7 @@ IP-ASN,211157
 .bbkz.com
 .bbnradio.org
 .bbqm1.xyz
+.bbr.ru
 .bbs-cove.ac.uk
 .bbs-tw.com
 .bbs.tuitui.info
@@ -4210,6 +4224,7 @@ IP-ASN,211157
 .beyondcore.com
 .beyondfirewall.com
 .beyondtext.ac.uk
+.bfa.ru
 .bffshd.com
 .bfmat.ac.uk
 .bfnn.org
@@ -4727,6 +4742,7 @@ IP-ASN,211157
 .blws.ac.uk
 .blylq.buzz
 .blz-contentstack.com
+.bm-bank.ru
 .bm14.ac.uk
 .bmac.ac.uk
 .bmc.ac.uk
@@ -5563,6 +5579,7 @@ IP-ASN,211157
 .bsnti.ac.uk
 .bso.ac.uk
 .bsom.ac.uk
+.bspb.ru
 .bsr.ac.uk
 .bsrg.ac.uk
 .bssd.ac.uk
@@ -7335,6 +7352,7 @@ IP-ASN,211157
 .comments.app
 .commentshk.com
 .commerceos.com
+.commerzbank.ru
 .commnet.ac.uk
 .communistcrimes.org
 .communitychoicecu.com
@@ -7594,6 +7612,7 @@ IP-ASN,211157
 .creativity-cetl.ac.uk
 .creatwhatsnext.com
 .crececonebay.com
+.credit-zenit.ru
 .creditcardsbay.com
 .creditkarma.com
 .creditlink-east.ac.uk
@@ -8081,6 +8100,7 @@ IP-ASN,211157
 .dba.dk
 .dbc.hk
 .dbgjd.com
+.dbmoscow.ru
 .dbo-dengi.online
 .dca.ac.uk
 .dcard.cc
@@ -8442,8 +8462,10 @@ IP-ASN,211157
 .dettolsitishield.co.in
 .dettolthailand.com
 .deutsch-sexfilme.com
+.deutsche-bank.ru
 .deutsche-pornos-kostenlos.xxx
 .deutsche-welle.de
+.deutschebank.ru
 .deutschepornos-kostenlos.net
 .deutschsex.com
 .dev-guardianapis.com
@@ -8958,6 +8980,7 @@ IP-ASN,211157
 .domaintoday.com.au
 .dombosco.com.br
 .domesticabuserisk.ac.uk
+.domrfbank.ru
 .domywife.com
 .don.ac.uk
 .donatecarsoh.org
@@ -10918,6 +10941,7 @@ IP-ASN,211157
 .fanbox.cc
 .fandango.com
 .fandom.com
+.fanfictionero.com
 .fanfox.net
 .fangbinxing.com
 .fangeming.com
@@ -11219,9 +11243,12 @@ IP-ASN,211157
 .fi11tv1.com
 .fibank.bg
 .fibre-diffraction.ac.uk
+.fic.fan
+.ficador.com
 .ficbook.net
 .ficeboock.com
 .ficm.ac.uk
+.ficmania.com
 .fictionmania.tv
 .fifastreet.com
 .fifastreet3.com
@@ -11259,6 +11286,7 @@ IP-ASN,211157
 .filton.ac.uk
 .fimfiction.net
 .finalcutpro.com
+.finambank.ru
 .financeleadsonline.com
 .financetwitter.com
 .financialadvisoriq.com
@@ -11535,6 +11563,7 @@ IP-ASN,211157
 .formitfactory.com
 .forms.new
 .forpojie.pics
+.forshtadt.ru
 .forster.ac.uk
 .fortawesome.com
 .forte.ac.uk
@@ -14405,6 +14434,7 @@ IP-ASN,211157
 .homealonemilfs.com
 .homebox.com
 .homeboxoffice.com
+.homecredit.ru
 .homedepot-static.com
 .homedepot.com
 .homefieldcollege.ac.uk
@@ -15056,6 +15086,7 @@ IP-ASN,211157
 .iavian.net
 .iavnight.com
 .ib.metapix.net
+.ibamoscow.ru
 .ibb.co
 .ibd-boost.ac.uk
 .ibeats-uk.com
@@ -16949,6 +16980,7 @@ IP-ASN,211157
 .jpg4.info
 .jpg4.pw
 .jpg4us.net
+.jpmorgan.ru
 .jpopforum.net
 .jpvhub.com
 .jquery.com
@@ -17431,6 +17463,7 @@ IP-ASN,211157
 .koreanpornmovie.com
 .korenan2.com
 .korewaeroi.com
+.korona.com
 .koshelek.app
 .koskade.com
 .kostenlosepornoclips.com
@@ -17476,6 +17509,7 @@ IP-ASN,211157
 .kuanrenxs.com
 .kubakuba.global
 .kubakuba1996.com
+.kubankredit.ru
 .kubeacademy.com
 .kubeapps.com
 .kubernetes.io
@@ -19048,6 +19082,7 @@ IP-ASN,211157
 .mcreasite.com
 .mcrouter.net
 .mcrouter.org
+.mcs.st
 .mcstories.com
 .mcsw.ac.uk
 .mctimoney-college.ac.uk
@@ -19270,6 +19305,7 @@ IP-ASN,211157
 .meyou.jp
 .meyul.com
 .mfg-inspector.com
+.mfk-bank.ru
 .mfk-t-finance.ru
 .mfmf.club
 .mfo.ac.uk
@@ -19281,6 +19317,8 @@ IP-ASN,211157
 .mgsdtp.ac.uk
 .mgstage.com
 .mh4u.org
+.mhcb.ru
+.mhcbr.ru
 .mhdss.ac.uk
 .mhhanman.xyz
 .mhie.ac.uk
@@ -20389,6 +20427,7 @@ IP-ASN,211157
 .mvideoporno.xxx
 .mvk.com
 .mvnrepository.com
+.mvs-bank.ru
 .mwcu00.com
 .mwdbank.com
 .mwell.ac.uk
@@ -21316,6 +21355,8 @@ IP-ASN,211157
 .nicats.ac.uk
 .nicd.ac.uk
 .niceanimegames.com
+.nicegram.app
+.nicegram.cloud
 .niceporn.tv
 .nicer.ac.uk
 .nicesrv.de
@@ -21646,6 +21687,7 @@ IP-ASN,211157
 .nonstopfap.com
 .noodlemagazine.com
 .noodlevpn.com
+.noosferabank.ru
 .norbulingka.org
 .nordstrom.com
 .nordstromimage.com
@@ -22605,6 +22647,7 @@ IP-ASN,211157
 .otleyonline.ac.uk
 .otnd.org
 .otokonokoland.com
+.otpbank.ru
 .otto.de
 .otzo.com
 .ou.ac.uk
@@ -24173,6 +24216,7 @@ IP-ASN,211157
 .priestleycollege.ac.uk
 .prifysgolioncymru.ac.uk
 .primarygoal.ac.uk
+.primbank.ru
 .prime-video.com
 .primecurves.com
 .primeday.info
@@ -24312,6 +24356,7 @@ IP-ASN,211157
 .prs-ltsn.ac.uk
 .prts.plus
 .prucomm.ac.uk
+.prvbank.ru
 .ps-exchange.com
 .psa.ac.uk
 .psb-ocenka.ru
@@ -24329,6 +24374,7 @@ IP-ASN,211157
 .psiphon.ca
 .psiphon3.com
 .psiphontoday.com
+.pskb.ru
 .pssru.ac.uk
 .pstatic.net
 .pstorage.space
@@ -24417,6 +24463,7 @@ IP-ASN,211157
 .pvp.net
 .pvp.tv
 .pvt.sexy
+.pvubank.com
 .pvue1.com
 .pvue2.com
 .pvzgw2.com
@@ -24697,6 +24744,8 @@ IP-ASN,211157
 .ragnaporn.com
 .raidcall.com.tw
 .raidtalk.com.tw
+.raiffeisen-media.ru
+.raiffeisen.ru
 .rainbowplan.org
 .raindrop.io
 .raizoji.or.jp
@@ -25065,7 +25114,9 @@ IP-ASN,211157
 .remirepo.net
 .rems-cdt.ac.uk
 .renaissanceskin.ac.uk
+.rencapbank.ru
 .renchead.com
+.rencredit.ru
 .renderingtoolkit.org
 .renderos.com
 .reneerossvideos.com
@@ -25250,6 +25301,7 @@ IP-ASN,211157
 .rnc.ac.uk
 .rncb.ac.uk
 .rncm.ac.uk
+.rncoluminis.ru
 .rnib-redhill.ac.uk
 .rnibcollege.ac.uk
 .rnibncw.ac.uk
@@ -25453,6 +25505,7 @@ IP-ASN,211157
 .rts.ch
 .rtycminnesota.org
 .ru-moscow-1.myhuaweicloud.com
+.ru.ccb.com
 .rua-project.ac.uk
 .ruanyifeng.com
 .ruby-lang.org
@@ -25773,6 +25826,7 @@ IP-ASN,211157
 .sbertech.ru
 .sbertroika.ru
 .sbgkstv.shop
+.sbibankllc.ru
 .sbirmc.ac.uk
 .sbishinseibank.co.jp
 .sbitravelcard.com
@@ -26006,6 +26060,7 @@ IP-ASN,211157
 .seatguru.com
 .seattlefdc.com
 .seattlespheres.com
+.seb.ru
 .secom.co.jp
 .secomtrust.net
 .second-ns.com
@@ -26081,6 +26136,7 @@ IP-ASN,211157
 .selectelpro.ru
 .selectyourgame.com
 .selfloversworld.com
+.selkombank.ru
 .sellclassics.com
 .sellercommunity.com
 .sellyoak.ac.uk
@@ -26705,6 +26761,7 @@ IP-ASN,211157
 .sina.com.tw
 .sinabank.ir
 .sinapse.ac.uk
+.sinara.ru
 .sinchew.com.my
 .sinchew.my
 .sinet.ac.uk
@@ -26858,6 +26915,7 @@ IP-ASN,211157
 .slandr.net
 .slashdot.org
 .slashine.onl
+.slavbank.ru
 .slaytizle.com
 .slc.ac.uk
 .slc.tl
@@ -26932,6 +26990,7 @@ IP-ASN,211157
 .smartthings.com
 .smashed.xxx
 .smbc.co.jp
+.smbcr-bank.ru
 .smbctb.co.jp
 .smbgroup.ac.uk
 .smc.ac.uk
@@ -27084,6 +27143,7 @@ IP-ASN,211157
 .solent.ac.uk
 .solentmarineacademy.ac.uk
 .solentuniversity.ac.uk
+.solid.ru
 .solidaritetibet.org
 .solidfiles.com
 .solihull.ac.uk
@@ -27291,6 +27351,7 @@ IP-ASN,211157
 .southwestcollege.ac.uk
 .southwestiot.ac.uk
 .southwestnuclearhub.ac.uk
+.sovcombank.ru
 .sovec.net
 .sowers.org.hk
 .sowiki.net
@@ -27472,6 +27533,7 @@ IP-ASN,211157
 .ss2.us
 .ss7.app
 .ssa.gov
+.ssb.msk.ru
 .ssdevrd.com
 .ssees.ac.uk
 .ssfc.ac.uk
@@ -28267,6 +28329,7 @@ IP-ASN,211157
 .taedp.org.tw
 .tafm.org
 .tagapie.com.tw
+.tagbank.ru
 .tags.ac.uk
 .tagwa.org.au
 .tagwalk.com
@@ -28375,6 +28438,7 @@ IP-ASN,211157
 .tasteofpremium.jp
 .tastyblacks.com
 .tati-log.com
+.tatsotsbank.ru
 .tau.ac.uk
 .tauntons.ac.uk
 .taup.net
@@ -28528,6 +28592,7 @@ IP-ASN,211157
 .tegrazone.kr
 .tehnodom.com
 .tehrantimes.com
+.teinon.net
 .tejaratbank.ir
 .tel.ac.uk
 .tele2.ru
@@ -29154,6 +29219,7 @@ IP-ASN,211157
 .tjsbfj.com
 .tkb008.xyz
 .tkb2233.life
+.tkbbank.ru
 .tkbqf2.life
 .tkcs-collins.com
 .tksex.com
@@ -29917,6 +29983,7 @@ IP-ASN,211157
 .ubncloud.com
 .ubnt.com
 .ubnw.net
+.ubs.com
 .ubuntu-touch.io
 .ubuntu.com
 .ubuntu.net
@@ -29982,6 +30049,7 @@ IP-ASN,211157
 .ucoz.ru
 .ucoz.site
 .ucoz.ua
+.ucozmail.com
 .ucozmedia.com
 .ucozmedia.ru
 .ucoztemplates.com
@@ -30027,6 +30095,7 @@ IP-ASN,211157
 .ufreevpn.com
 .ugo.com
 .uguide.ru
+.uguide.su
 .uguisupapa.net
 .uhairy.com
 .uhdwallpapers.org
@@ -30110,6 +30179,7 @@ IP-ASN,211157
 .uknibc.ac.uk
 .ukoln.ac.uk
 .ukorea.ac.uk
+.ukoz.ru
 .ukpass.ac.uk
 .ukpmc.ac.uk
 .ukpmcplus.ac.uk
@@ -30321,6 +30391,7 @@ IP-ASN,211157
 .ur7s.com
 .ura-akiba.jp
 .uraban.me
+.uralsib.ru
 .urasma.com
 .urbanairship.com
 .urbanbigdatacentre.ac.uk
@@ -30374,6 +30445,7 @@ IP-ASN,211157
 .usma.edu
 .usmc.mil
 .usocctn.com
+.usocial.pro
 .uspcollege.ac.uk
 .uspto.gov
 .usstratford.ac.uk
@@ -30428,6 +30500,7 @@ IP-ASN,211157
 .uwchgyfrifiaduracymru.ac.uk
 .uwe-bristol.ac.uk
 .uwe.ac.uk
+.uweb.ru
 .uwern.ac.uk
 .uwic.ac.uk
 .uwinat.ac.uk
@@ -31084,6 +31157,7 @@ IP-ASN,211157
 .vk.com
 .vk.company
 .vk.design
+.vk.kz
 .vk.link
 .vk.me
 .vk.ru
@@ -31091,7 +31165,9 @@ IP-ASN,211157
 .vkcache.com
 .vkcdnservice.com
 .vkclips.app
+.vkcloud-static.kz
 .vkcloud-static.ru
+.vkcloud.kz
 .vkcs.cloud
 .vkfest.ru
 .vkgo.app
@@ -31120,7 +31196,9 @@ IP-ASN,211157
 .vkuservideo.net
 .vkuservideo.ru
 .vkvideo.ru
+.vkworkspace.kz
 .vl4x.net
+.vlb100.ru
 .vllcs.org
 .vmailru.net
 .vmglobal.net
@@ -31485,7 +31563,10 @@ IP-ASN,211157
 .vsphere.com
 .vsphere.net
 .vssn.ac.uk
+.vtb-direct.com
+.vtb-grants.fut.ru
 .vtb.ru
+.vtbglobalperspectives.com
 .vtrahe.page
 .vtri.ac.uk
 .vts.ac.uk
@@ -31843,6 +31924,7 @@ IP-ASN,211157
 .westengland.ac.uk
 .westerndigital.com
 .westernshugdensociety.org
+.westernunion.ru
 .westernwolves.com
 .westherts.ac.uk
 .westhill.ac.uk
@@ -32703,6 +32785,7 @@ IP-ASN,211157
 .xn--czq75pvv1aj5c.org
 .xn--d1abkf4ap.fun
 .xn--d1acpjx3f.xn--p1ai
+.xn--d1aqf.xn--p1ai
 .xn--d4ty0ojsqzfd.com
 .xn--e1adjldbbpv.xn--90ais
 .xn--e1aigb.xn--p1ai
@@ -33403,6 +33486,7 @@ IP-ASN,211157
 .yomiuri-systec.co.jp
 .yomiuri.co.jp
 .yong.hu
+.yoobusiness.ru
 .yopornshop.com
 .york-sfc.ac.uk
 .york.ac.uk
@@ -33850,6 +33934,8 @@ IP-ASN,211157
 .zencoder.com
 .zendesk.com
 .zengjinyan.org
+.zenit-card.ru
+.zenit.ru
 .zenmate.com
 .zenodo.org
 .zeplerinstitute.ac.uk
@@ -33909,6 +33995,7 @@ IP-ASN,211157
 .zipcine.com
 .ziporn.com
 .zippyshare.com
+.ziraatbank.ru
 .zishy.com
 .zkaip.com
 .zkiz.com
@@ -34163,14 +34250,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-12 02:39:30
+# UPDATED: 2026-05-14 02:39:24
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33903
+# DOMAIN-SUFFIX: 33990
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34225
+# TOTAL: 34312
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
