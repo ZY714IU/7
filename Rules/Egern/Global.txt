@@ -1,9 +1,8 @@
 # Name: Global.txt
-# Updated: 2026-05-17 11:44:34 CST
+# Updated: 2026-05-17 11:48:45 CST
 
 # Others
 DOMAIN,apk.ish.app
-DOMAIN,openrouter.ai
 DOMAIN-SUFFIX,anti-ad.net
 DOMAIN-SUFFIX,asiatimes.com
 DOMAIN-SUFFIX,actionnetwork.org
