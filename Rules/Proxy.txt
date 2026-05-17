@@ -1,5 +1,6 @@
 # Others
 DOMAIN,apk.ish.app
+DOMAIN,openrouter.ai
 DOMAIN-SUFFIX,anti-ad.net
 DOMAIN-SUFFIX,asiatimes.com
 DOMAIN-SUFFIX,actionnetwork.org
@@ -45,7 +46,6 @@ DOMAIN-KEYWORD,hardwarezone
 DOMAIN-KEYWORD,mod
 DOMAIN-KEYWORD,mtiproxy
 DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,openrouter
 DOMAIN-KEYWORD,politico
 DOMAIN-KEYWORD,shadowsocks
 DOMAIN-KEYWORD,subconverter
