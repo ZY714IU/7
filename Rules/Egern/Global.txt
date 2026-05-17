@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-05-16 06:14:52 CST
+# Updated: 2026-05-17 11:38:04 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -48,6 +48,7 @@ DOMAIN-KEYWORD,hardwarezone
 DOMAIN-KEYWORD,mod
 DOMAIN-KEYWORD,mtiproxy
 DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,openrouter
 DOMAIN-KEYWORD,politico
 DOMAIN-KEYWORD,shadowsocks
 DOMAIN-KEYWORD,subconverter
