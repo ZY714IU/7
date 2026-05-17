@@ -45,6 +45,7 @@ DOMAIN-KEYWORD,hardwarezone
 DOMAIN-KEYWORD,mod
 DOMAIN-KEYWORD,mtiproxy
 DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,openrouter
 DOMAIN-KEYWORD,politico
 DOMAIN-KEYWORD,shadowsocks
 DOMAIN-KEYWORD,subconverter
