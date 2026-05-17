@@ -1,5 +1,5 @@
 # Name: China.txt
-# Updated: 2026-05-10 06:04:51 CST
+# Updated: 2026-05-17 11:47:51 CST
 
 # Apple
 DOMAIN,testflight.apple.com
@@ -87,7 +87,7 @@ DOMAIN-SUFFIX,in-addr.arpa
 DOMAIN-SUFFIX,ip6.arpa
 DOMAIN-SUFFIX,p.to
 DOMAIN-KEYWORD,local
-DOMAIN-KEYWORD,router
+# DOMAIN-KEYWORD,router
 IP-CIDR,0.0.0.0/8
 IP-CIDR,10.0.0.0/8
 IP-CIDR,10.10.10.0/24
