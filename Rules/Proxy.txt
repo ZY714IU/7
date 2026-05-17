@@ -1,6 +1,5 @@
 # Others
 DOMAIN,apk.ish.app
-DOMAIN,openrouter.ai
 DOMAIN-SUFFIX,anti-ad.net
 DOMAIN-SUFFIX,asiatimes.com
 DOMAIN-SUFFIX,actionnetwork.org
