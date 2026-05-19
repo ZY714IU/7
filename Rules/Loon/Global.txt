@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-05-18 06:10:47 CST
+# Updated: 2026-05-20 06:41:15 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -124,14 +124,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-18 02:24:04
+# UPDATED: 2026-05-20 02:39:01
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33996
+# DOMAIN-SUFFIX: 34017
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34318
+# TOTAL: 34339
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -604,6 +604,7 @@ IP-ASN,211157
 .55dndn.com
 .567321.online
 .568xe.com
+.573.jp
 .58avgo.com
 .592r.com
 .59mvmv.com
@@ -17282,6 +17283,7 @@ IP-ASN,211157
 .keytransparency.foo
 .keytransparency.org
 .kfs.io
+.kgisystems.com
 .kgslb.com
 .kgv.ac.uk
 .khabdha.org
@@ -17403,6 +17405,7 @@ IP-ASN,211157
 .kissjav.li
 .kitakyushubank.co.jp
 .kitts.ac.uk
+.kiwi.jp
 .kiwi.kz
 .kiwibrowser.com
 .kiyobank.co.jp
@@ -17455,6 +17458,19 @@ IP-ASN,211157
 .konachan.com
 .konachan.net
 .konachan.wjcodes.com
+.konami-igaming.online
+.konami.co.jp
+.konami.com
+.konami.net
+.konami.org
+.konamicrossmedia.com
+.konamigaming.com
+.konamigaming.net
+.konamigaming.online
+.konamionline.com
+.konamiopen.jp
+.konamisportsclub.jp
+.konamistyle.jp
 .kone.com
 .koolsolutions.com
 .koornk.com
@@ -25160,6 +25176,8 @@ IP-ASN,211157
 .researchkit.tv
 .researchscotland.ac.uk
 .researchwales.ac.uk
+.resella.jp
+.resellablue.com
 .resilient-decarbonised-energy-cdt.ac.uk
 .resilient-decarbonised-energy-dtc.ac.uk
 .resilio.com
@@ -26700,6 +26718,7 @@ IP-ASN,211157
 .side.ac.uk
 .sidelinesnews.com
 .sidelinessportseatery.com
+.sider.ai
 .sie.ac.uk
 .siege-amazon.com
 .sierrafriendsoftibet.org
@@ -33840,6 +33859,7 @@ IP-ASN,211157
 .yuanzhengtang.org
 .yuenuge113.xyz
 .yuenuge18.cc
+.yugioh-card.com
 .yulghun.com
 .yunchao.net
 .yunlaopo.cc
@@ -33965,6 +33985,7 @@ IP-ASN,211157
 .zhangboli.net
 .zhangboz1.xyz
 .zhangtianliang.com
+.zhangzhehan.net
 .zhanlve.org
 .zhenghui.org
 .zhengjian.org
@@ -34256,14 +34277,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-18 02:24:04
+# UPDATED: 2026-05-20 02:39:01
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 33996
+# DOMAIN-SUFFIX: 34017
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34318
+# TOTAL: 34339
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
