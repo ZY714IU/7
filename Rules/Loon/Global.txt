@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-05-22 06:46:26 CST
+# Updated: 2026-05-24 06:12:07 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -124,14 +124,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-22 02:40:00
+# UPDATED: 2026-05-24 02:23:20
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34028
+# DOMAIN-SUFFIX: 34031
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34350
+# TOTAL: 34353
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -392,6 +392,7 @@ IP-ASN,211157
 .233v2.com
 .2371tom.com
 .24h.tv
+.24hbook.com
 .24hjav.com
 .24hrs.ca
 .24porn.com
@@ -18835,6 +18836,7 @@ IP-ASN,211157
 .maryvale.ac.uk
 .maryward.ac.uk
 .marywardcentre.ac.uk
+.mas.to
 .masalabin.com
 .masaladesi.com
 .masalaseen.net
@@ -21010,6 +21012,7 @@ IP-ASN,211157
 .nentindo.net
 .neo-miracle.com
 .neodaas.ac.uk
+.neodb.social
 .neoforged.net
 .neonatalsociety.ac.uk
 .neotokyo.supertop-100.com
@@ -34288,14 +34291,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-22 02:40:00
+# UPDATED: 2026-05-24 02:23:20
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34028
+# DOMAIN-SUFFIX: 34031
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34350
+# TOTAL: 34353
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
