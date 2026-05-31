@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-05-30 06:50:35 CST
+# Updated: 2026-06-01 06:30:23 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -124,14 +124,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-30 02:54:15
+# UPDATED: 2026-06-01 02:26:45
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34068
+# DOMAIN-SUFFIX: 34072
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34390
+# TOTAL: 34394
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -2830,6 +2830,7 @@ IP-ASN,211157
 .arxiv.org
 .arzon.jp
 .as-hp.ca
+.as.mr
 .asacp.org
 .asagaku.com
 .asahi.com
@@ -7176,7 +7177,6 @@ IP-ASN,211157
 .cn6.eu
 .cna.com.tw
 .cnabc.com
-.cnbc.com
 .cnbeta.com.tw
 .cnd.org
 .cnet.com
@@ -12443,6 +12443,7 @@ IP-ASN,211157
 .gemini.com
 .gen.lib.rus.ec
 .gen2.ac.uk
+.gencraft.com
 .gendai.net
 .generated.photos
 .generationpup.ac.uk
@@ -18145,6 +18146,7 @@ IP-ASN,211157
 .livingstream.com
 .livingwithmachines.ac.uk
 .livingyourambition.com
+.livinno.org
 .livjm.ac.uk
 .livrariart.com.br
 .liwangyang.com
@@ -22522,6 +22524,7 @@ IP-ASN,211157
 .ooyala.com
 .op.gg
 .op7979.com
+.opac-project.eu
 .opdems.ac.uk
 .open.ac.uk
 .open.com.hk
@@ -30722,6 +30725,7 @@ IP-ASN,211157
 .vdoav.com
 .vecchiescopate.casa
 .vector.im
+.veed.io
 .veet.at
 .veet.be
 .veet.ca
@@ -34328,14 +34332,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-30 02:54:15
+# UPDATED: 2026-06-01 02:26:46
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34068
+# DOMAIN-SUFFIX: 34072
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34390
+# TOTAL: 34394
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
