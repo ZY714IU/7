@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,asiatimes.com
 DOMAIN-SUFFIX,actionnetwork.org
 DOMAIN-SUFFIX,asiafinancial.com
 DOMAIN-SUFFIX,assetsconfigcdn.org
+DOMAIN-SUFFIX,avjiali.com
 DOMAIN-SUFFIX,beyondwickedmapping.org
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,buff.ly
