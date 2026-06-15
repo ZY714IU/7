@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-06-15 18:57:48 CST
+# Updated: 2026-06-16 07:13:42 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -125,14 +125,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-06-14 02:32:49
-# DOMAIN: 123
+# UPDATED: 2026-06-16 03:23:31
+# DOMAIN: 125
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34354
+# DOMAIN-SUFFIX: 34399
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34675
+# TOTAL: 34722
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -3629,6 +3629,7 @@ IP-ASN,211157
 .barton.de
 .bartvpn.com
 .bas.ac.uk
+.base.org
 .baselinestudy.com
 .baselinestudy.org
 .basford-hall.ac.uk
@@ -4515,6 +4516,7 @@ IP-ASN,211157
 .bitget.com
 .bithumb.com
 .bitinka.com.ar
+.bitlayer.org
 .bitly.com
 .bitly.is
 .bitmex.com
@@ -4574,6 +4576,7 @@ IP-ASN,211157
 .blackvpn.com
 .blake.ac.uk
 .blaoshi.cc
+.blast.io
 .blazor.net
 .blc.ac.uk
 .ble.ac.uk
@@ -5173,12 +5176,15 @@ IP-ASN,211157
 .bmwusfactory.com
 .bmwusrideracademy.com
 .bmwvalueservice.com
+.bmwweb.solutions
 .bmwwholesaleconnect.com
 .bmwworld.com
 .bmwworld.net
 .bmwworld.tv
 .bmwzentrum.com
 .bnac.ac.uk
+.bnappweb.black
+.bnbchain.org
 .bnbstatic.com
 .bnef.com
 .bnews.co
@@ -5583,6 +5589,7 @@ IP-ASN,211157
 .bs-adreview.com
 .bs-awh.ne.jp
 .bsa.ac.uk
+.bsappapi.cc
 .bsappapi.com
 .bsaw.ac.uk
 .bsbec.ac.uk
@@ -6553,6 +6560,7 @@ IP-ASN,211157
 .cgst.edu
 .ch9.ms
 .chace.ac.uk
+.chainid.network
 .championshipseriesleague.com
 .change.org
 .changeip.name
@@ -7499,6 +7507,7 @@ IP-ASN,211157
 .cordcloud.org
 .cordwainers.ac.uk
 .core.ac.uk
+.coredao.org
 .coreduo.com
 .coreextreme.com
 .corel.com
@@ -9223,6 +9232,7 @@ IP-ASN,211157
 .dropboxstatic.com
 .dropboxusercontent.com
 .droplr.com
+.drpc.org
 .drsunacademy.com
 .drtuber.com
 .drunk6.com
@@ -11044,6 +11054,8 @@ IP-ASN,211157
 .fantasiasguatemala.com
 .fantasti.cc
 .fantasticyoungporn.com
+.fantom.foundation
+.fantom.network
 .fantv.hk
 .fanyue.info
 .fap-xxx.com
@@ -11309,6 +11321,7 @@ IP-ASN,211157
 .fhreports.net
 .fi11av1.com
 .fi11tv1.com
+.fiat24.com
 .fibank.bg
 .fibre-diffraction.ac.uk
 .fic.fan
@@ -11505,6 +11518,7 @@ IP-ASN,211157
 .flagsonline.it
 .flame.ac.uk
 .flameunleashed.com
+.flare.network
 .flaru.com
 .flash-xxx.com
 .flashtranny.com
@@ -12197,10 +12211,15 @@ IP-ASN,211157
 .futanarihq.com
 .futhead.com
 .futpromos.com
+.futu.cn
+.futu.link
 .futuhk.com
+.futuhk1.com
+.futuhk2.com
 .futuhkapp.com
 .futuholdings.com
 .futunited.com
+.futuoa.com
 .future-cs.ru
 .future-media.ac.uk
 .future-reserves-research.ac.uk
@@ -12217,6 +12236,7 @@ IP-ASN,211157
 .futuretrack.ac.uk
 .futurevehicles.ac.uk
 .futureworks.ac.uk
+.futusg.com
 .fux.com
 .fuxporn.com
 .fuyin.net
@@ -16399,6 +16419,7 @@ IP-ASN,211157
 .is-a-hunter.com
 .is.gd
 .isaacmao.com
+.isafepal.com
 .isasecret.com
 .isbgpsafeyet.com
 .isc.ac.uk
@@ -18389,6 +18410,7 @@ IP-ASN,211157
 .londonstudiocentre.ac.uk
 .lonestarnaughtygirls.com
 .longbridge.cloud
+.longbridge.cn
 .longbridge.com
 .longbridge.global
 .longbridge.hk
@@ -19305,6 +19327,7 @@ IP-ASN,211157
 .mega.io
 .mega.nz
 .megacamz.com
+.megaeth.com
 .megafilmporno.com
 .megafon.com
 .megafon.ru
@@ -19378,6 +19401,7 @@ IP-ASN,211157
 .meripet.biz
 .meripet.com
 .merit-times.com.tw
+.merkl.xyz
 .merlin.ac.uk
 .merlinblog.xyz
 .merops.ac.uk
@@ -19437,6 +19461,7 @@ IP-ASN,211157
 .meu.ac.uk
 .meuhentai.com
 .mewe.com
+.mexc.co
 .mexc.com
 .mexcsensors.com
 .meyou.jp
@@ -21544,6 +21569,7 @@ IP-ASN,211157
 .nibs.ac.uk
 .nibsc.ac.uk
 .nic.gov
+.nic.ru
 .nicats.ac.uk
 .nicd.ac.uk
 .niceanimegames.com
@@ -21555,6 +21581,7 @@ IP-ASN,211157
 .nicesshop.net
 .nichepornsite.com
 .nichepornsites.com
+.nichost.ru
 .nicis.ac.uk
 .nickscipio.com
 .nicky.xxx
@@ -21859,6 +21886,7 @@ IP-ASN,211157
 .nodeimage.com
 .nodejs.org
 .nodequality.com
+.nodereal.io
 .nodes.ac.uk
 .nodeseek.com
 .nodesnoop.com
@@ -22357,6 +22385,7 @@ IP-ASN,211157
 .oann.com
 .oas.ac.uk
 .oasis.ac.uk
+.oasis.io
 .oasiscollege.ac.uk
 .oasp.ac.uk
 .oath.cloud
@@ -22595,6 +22624,7 @@ IP-ASN,211157
 .onetrust.com
 .onevps.com
 .oneworldmanystories.com
+.onfinality.io
 .onindiansex.com
 .oninstagram.com
 .onion.city
@@ -24900,6 +24930,7 @@ IP-ASN,211157
 .r-pool.net
 .r-project.org
 .r0.ru
+.r01.ru
 .r10s.com
 .r10s.jp
 .r18.clickme.net
@@ -25298,6 +25329,9 @@ IP-ASN,211157
 .reflectivecode.com
 .reform-apple.com
 .refrain.ac.uk
+.reg.cloud
+.reg.com
+.reg.ru
 .regard.ac.uk
 .regener8.ac.uk
 .regent-academy.ac.uk
@@ -25707,6 +25741,7 @@ IP-ASN,211157
 .rsg.sc
 .rsgamen.org
 .rshb.ru
+.rsk.co
 .rslg.ac.uk
 .rslondon.ac.uk
 .rslp.ac.uk
@@ -25906,6 +25941,7 @@ IP-ASN,211157
 .saasexch.cc
 .saasexch.co
 .saasexch.com
+.saasexch.info
 .saasexch.io
 .saboom.com
 .sabuibo.net
@@ -25928,6 +25964,7 @@ IP-ASN,211157
 .safechat.com
 .safeguarddefenders.com
 .safeliner.tech
+.safepal.com
 .safepodnetwork.ac.uk
 .safervpn.com
 .saffrontech.com
@@ -27186,6 +27223,7 @@ IP-ASN,211157
 .skysports.ie
 .skysportsonline.com
 .skysportsracing.com
+.skytigris.cn
 .skyvegas.com
 .skyxvpn.com
 .sl-reverse.com
@@ -27438,6 +27476,7 @@ IP-ASN,211157
 .solid.ru
 .solidaritetibet.org
 .solidfiles.com
+.solidifi.app
 .solihull.ac.uk
 .solihullsfc.ac.uk
 .solostudioksale.com
@@ -28058,6 +28097,7 @@ IP-ASN,211157
 .stdavidsdaygroup.ac.uk
 .stdoms.ac.uk
 .stealthex.io
+.steamconnecttest.com
 .stec.ac.uk
 .steel-storm.com
 .steelbrick.com
@@ -28466,6 +28506,7 @@ IP-ASN,211157
 .swc.ac.uk
 .swdtc.ac.uk
 .swdtp.ac.uk
+.sweb.ru
 .sweep.ac.uk
 .sweetadult-tube.com
 .sweetandmaxwell.co.uk
@@ -28635,6 +28676,7 @@ IP-ASN,211157
 .tagwalk.com
 .tahr.org.tw
 .taiav.com
+.taiko.xyz
 .tail-f.com
 .tailf.com
 .tails.net
@@ -29266,6 +29308,7 @@ IP-ASN,211157
 .thinkwithgoogle.com
 .thirdmill.org
 .thirdns.de
+.thirdweb.com
 .thisav.com
 .thisav.org
 .thisisgame.com
@@ -29436,6 +29479,7 @@ IP-ASN,211157
 .tiendabestbuy.com
 .tiffany-towers.com
 .tig-ol-bitties.live
+.tigerbbs.cn
 .tigervpn.com
 .tiipple.ac.uk
 .tik-tokapi.com
@@ -33035,6 +33079,7 @@ IP-ASN,211157
 .xkontakt18.com
 .xkorean.cam
 .xl-gaytube.com
+.xlayer.tech
 .xlecx.org
 .xlfmtalk.com
 .xlfmwz.info
@@ -34609,19 +34654,21 @@ wrds-www.wharton.upenn.edu
 ws.audioscrobbler.com
 www-cdn.icloud.com.akadns.net
 yangzhi.app
+zftksc.cdn-settings.appsflyersdk.com
+zftksc.launches.appsflyersdk.com
 ztedevices.com
 
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-06-14 02:32:50
-# DOMAIN: 123
+# UPDATED: 2026-06-16 03:23:32
+# DOMAIN: 125
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34354
+# DOMAIN-SUFFIX: 34399
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34675
+# TOTAL: 34722
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
