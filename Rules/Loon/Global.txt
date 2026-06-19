@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-06-18 06:54:36 CST
+# Updated: 2026-06-20 06:28:44 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -125,14 +125,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-06-18 02:53:30
+# UPDATED: 2026-06-20 02:40:20
 # DOMAIN: 125
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34408
+# DOMAIN-SUFFIX: 34425
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34731
+# TOTAL: 34748
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -960,6 +960,7 @@ IP-ASN,211157
 .account-paypal.net
 .account-paypal.org
 .accountancylearning.ac.uk
+.accountboy.com
 .accountkit.com
 .accountpaypal.com
 .accountpaypal.net
@@ -2364,6 +2365,7 @@ IP-ASN,211157
 .appbridge.it
 .appcenter.ms
 .appcloud.com
+.appconsent.io
 .appdomain.cloud
 .appdownloader.net
 .appdynamics.co.uk
@@ -3384,6 +3386,7 @@ IP-ASN,211157
 .awwcn.xyz
 .awxcdn.com
 .axbdoll.com.tw
+.axept.io
 .axios.com
 .axureformac.com
 .ayabank.com
@@ -6396,6 +6399,7 @@ IP-ASN,211157
 .cdjp.org
 .cdkworkshop.com
 .cdmatech.com
+.cdn-cookieyes.com
 .cdn-telegram.org
 .cdn-terapeak.com
 .cdn-tinkoff.ru
@@ -7454,6 +7458,7 @@ IP-ASN,211157
 .conquerwithcharacter.com
 .conscrypt.com
 .conscrypt.org
+.consentmanager.net
 .consentpro.com
 .conservatoiresuk.ac.uk
 .consilience.ac.uk
@@ -7473,9 +7478,11 @@ IP-ASN,211157
 .convrgencegame.com
 .coobay.com
 .cooer.su
+.cookiebot.com
 .cookiechoices.org
 .cookielaw.org
 .cookiepro.com
+.cookieyes.com
 .cool-comics.com
 .cool18.com
 .cool3c.com
@@ -8553,6 +8560,7 @@ IP-ASN,211157
 .df-bet.com
 .dfas.mil
 .dfn.org
+.dfvpn.com
 .dgaqp.com
 .dgg.gg
 .dghe.ac.uk
@@ -12340,6 +12348,7 @@ IP-ASN,211157
 .gamesstack.com
 .gametap.com
 .gameuxmasterguide.com
+.gamewtb.com
 .gamez.com.tw
 .gaming-notebooks.com
 .gamme.com.tw
@@ -13000,6 +13009,7 @@ IP-ASN,211157
 .gobuyonlinestore.net
 .gockhuatviet.com
 .godaddy.com
+.godaddy.net
 .godalming.ac.uk
 .godbolt.org
 .godfootsteps.org
@@ -20314,6 +20324,7 @@ IP-ASN,211157
 .moodleshare-hw.ac.uk
 .moodstocks.com
 .moodyz.com
+.moomoo.com
 .moon.fm
 .moonbbs.com
 .moonbbs.info
@@ -28808,6 +28819,7 @@ IP-ASN,211157
 .taylorandfrancis.com
 .taylorfrancis.com
 .tb-esim.ru
+.tb.pro
 .tbank-online.com
 .tbank.ru
 .tbcollege.org
@@ -29001,6 +29013,7 @@ IP-ASN,211157
 .terc.ac.uk
 .terk.nl
 .termius.com
+.termly.io
 .termux.com
 .termux.dev
 .termux.org
@@ -29371,6 +29384,7 @@ IP-ASN,211157
 .thumbzilla.com
 .thunderbird.net
 .thunderbolttechnology.net
+.thundermail.com
 .thurrock.ac.uk
 .thurrockcampus.ac.uk
 .thywords.com
@@ -29897,6 +29911,7 @@ IP-ASN,211157
 .trurocollege.ac.uk
 .truropenwith.ac.uk
 .trust-provider.com
+.trustarc.com
 .trustasiassl.com
 .trustcor.ca
 .trustcor.com
@@ -32803,6 +32818,7 @@ IP-ASN,211157
 .wsc.ac.uk
 .wscinternational.ac.uk
 .wsfc.ac.uk
+.wsimg.com
 .wsj.com
 .wsj.jobs
 .wsj.net
@@ -33228,6 +33244,7 @@ IP-ASN,211157
 .xn--uis17aj9kmuf.com
 .xn--uis44a.xn--j6w193g
 .xn--urs05q.jp
+.xn--vuqv2cf7wzyig79c.com
 .xn--wcv22d.hk
 .xn--wcv22d.xn--j6w193g
 .xn--wcvs22d.xn--j6w193g
@@ -34670,14 +34687,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-06-18 02:53:31
+# UPDATED: 2026-06-20 02:40:21
 # DOMAIN: 125
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34408
+# DOMAIN-SUFFIX: 34425
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34731
+# TOTAL: 34748
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
