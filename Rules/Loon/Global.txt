@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-07-06 06:27:27 CST
+# Updated: 2026-07-08 06:33:45 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -125,14 +125,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-07-06 03:09:06
+# UPDATED: 2026-07-08 03:48:16
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34524
+# DOMAIN-SUFFIX: 34526
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34846
+# TOTAL: 34848
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -23246,6 +23246,8 @@ IP-ASN,211157
 .paulmelloncentre.ac.uk
 .paulsimon-music.com
 .pavpal.com
+.pawchive.pw
+.pawchive.st
 .pawoo.net
 .paxful.com
 .paxlicense.org
@@ -34785,14 +34787,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-07-06 03:09:06
+# UPDATED: 2026-07-08 03:48:16
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34524
+# DOMAIN-SUFFIX: 34526
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34846
+# TOTAL: 34848
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
