@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-07-18 06:10:00 CST
+# Updated: 2026-07-20 06:12:45 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -126,14 +126,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-07-18 02:59:35
+# UPDATED: 2026-07-20 02:58:41
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34567
+# DOMAIN-SUFFIX: 34568
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34893
+# TOTAL: 34894
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -24922,6 +24922,7 @@ IP-ASN,211157
 .qmw.ac.uk
 .qmzdd.com
 .qnap.com
+.qnapsupport.net
 .qobuz.com
 .qombol.com
 .qoo-app.com
@@ -34833,14 +34834,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-07-18 02:59:35
+# UPDATED: 2026-07-20 02:58:41
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34567
+# DOMAIN-SUFFIX: 34568
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 34893
+# TOTAL: 34894
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
