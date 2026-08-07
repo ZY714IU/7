@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          token: ${{ secrets.Token }}
+          token: ${{ secrets.TOKEN }}
 
       - name: Download MaxMind databases
         env:
