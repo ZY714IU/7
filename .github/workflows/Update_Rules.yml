@@ -24,7 +24,7 @@ jobs:
 
       - name: Download all source files in parallel
         env:
-          TOKEN: ${{ secrets.Token }}
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
           curl -fsSL -H "Authorization: Bearer ${TOKEN}" -o Direct.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Direct.txt" &
           curl -fsSL -H "Authorization: Bearer ${TOKEN}" -o Proxy.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Proxy.txt" &
