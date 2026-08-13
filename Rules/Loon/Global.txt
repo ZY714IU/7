@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-08-12 06:09:09 CST
+# Updated: 2026-08-14 06:07:44 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -126,14 +126,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-08-12 02:53:58
+# UPDATED: 2026-08-14 02:55:25
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34679
+# DOMAIN-SUFFIX: 34719
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 35005
+# TOTAL: 35045
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -1037,6 +1037,9 @@ IP-ASN,211157
 .activelearnprimary.com.au
 .activematter.game
 .activeteachonline.com
+.activision.com
+.activisionblizzard.com
+.activisionblizzardmedia.com
 .activpn.com
 .actofunion.ac.uk
 .actris.ac.uk
@@ -4138,6 +4141,7 @@ IP-ASN,211157
 .bemywife.cc
 .benaughty.fun
 .benc.ac.uk
+.benefitsforeveryworld.com
 .bengalisexvideos.com
 .benliton.com
 .bentobox.tv
@@ -5725,6 +5729,7 @@ IP-ASN,211157
 .building3dcontent.com
 .builtenvsigns.ac.uk
 .builtfromebay.com
+.builtwithnix.org
 .bukkake-jav.com
 .bukkake.link
 .bullguard.com
@@ -5991,6 +5996,11 @@ IP-ASN,211157
 .callbackkiller.com
 .callersbane.com
 .callhulu.com
+.callofduty.com
+.callofdutyendowment.com
+.callofdutyendowment.org
+.callofdutyleague.com
+.callofdutymobile.com
 .calls.ac.uk
 .callywith.ac.uk
 .caltech.edu
@@ -6075,6 +6085,7 @@ IP-ASN,211157
 .candi.ac.uk
 .candidforum-videos.com
 .cando.ac.uk
+.candycrush.com
 .candycumcity.com
 .candypleasure.com
 .cannington.ac.uk
@@ -7677,6 +7688,7 @@ IP-ASN,211157
 .cranfield.ac.uk
 .crankplayer.com
 .crash.ac.uk
+.crashbandicoot.com
 .crates.io
 .craven-college.ac.uk
 .crawley-college.ac.uk
@@ -8485,6 +8497,7 @@ IP-ASN,211157
 .democracy.earth
 .democrats.org
 .demonoid.is
+.demonware.net
 .demoprint.com
 .demos.ac.uk
 .demosisto.hk
@@ -8634,7 +8647,9 @@ IP-ASN,211157
 .dhi.ac.uk
 .dhlestudio.com.co
 .diabetes-healthnet.ac.uk
+.diablo.com
 .diablo3.com
+.diablo4.com
 .diabloimmortal.com
 .diabrowser.com
 .diabrowser.engineering
@@ -10612,6 +10627,7 @@ IP-ASN,211157
 .europeansustainabledesign.net
 .europeansustainabledesigncouncil.com
 .europeansustainabledesigncouncil.net
+.europeanwarzoneseries.com
 .europepmc.org
 .europeunit.ac.uk
 .europornstar.com
@@ -14494,6 +14510,7 @@ IP-ASN,211157
 .highfieldscentre.ac.uk
 .highlands-jersey.ac.uk
 .highlands.ac.uk
+.highmoonstudios.com
 .highpeak.ac.uk
 .highpeakspureearth.com
 .highporn.net
@@ -15951,6 +15968,7 @@ IP-ASN,211157
 .inf.news
 .infinitetoons.com
 .infinitetube.com
+.infinityward.com
 .influencersgonewild.com
 .info-graf.fr
 .infocert.digital
@@ -17627,6 +17645,7 @@ IP-ASN,211157
 .kindteenporn.com
 .kinescopecdn.net
 .king.ac.uk
+.king.com
 .kingalfreds.ac.uk
 .kingalfredsbasingstoke.ac.uk
 .kingcomix.com
@@ -21006,6 +21025,7 @@ IP-ASN,211157
 .mynetav.org
 .mynetname.net
 .mynike.com
+.mynixos.com
 .mynumber.org
 .myoctocat.com
 .myparagliding.com
@@ -22014,7 +22034,15 @@ IP-ASN,211157
 .nivod.tv
 .nivodi.tv
 .nivodz.com
+.nix-community.org
+.nix.dev
+.nix.store
+.nixcon.org
+.nixcon2017.org
+.nixlang.com
 .nixos.org
+.nixos.wiki
+.nixpkgs.org
 .niziero.info
 .njactb.org
 .njav.tv
@@ -25267,6 +25295,7 @@ IP-ASN,211157
 .ravemedia.ac.uk
 .ravensbourne.ac.uk
 .ravensbourneuniversitylondon.ac.uk
+.ravensoftware.com
 .ravm.tv
 .rawgit.com
 .rawgithub.com
@@ -26657,6 +26686,7 @@ IP-ASN,211157
 .sejie.com
 .sejie80.com
 .sekai.colorfulpalette.org
+.sekirothegame.com
 .seksmet.nl
 .sekswebsite.nl
 .sekur1213.guru
@@ -27248,6 +27278,7 @@ IP-ASN,211157
 .sie.ac.uk
 .siege-amazon.com
 .sierrafriendsoftibet.org
+.sierragames.com
 .sifa.ac.uk
 .sigcomm.org
 .sigma-cetl.ac.uk
@@ -27427,6 +27458,7 @@ IP-ASN,211157
 .skybet.com
 .skyking.com.tw
 .skykiwi.com
+.skylanders.com
 .skymansion.net
 .skymatter.com
 .skynet.be
@@ -27479,6 +27511,7 @@ IP-ASN,211157
 .sleazydream.com
 .sleazyfork.org
 .sleazyneasy.com
+.sledgehammergames.com
 .sleepandwakefulnessresearch.ac.uk
 .slg.ac.uk
 .slheng.com
@@ -27701,6 +27734,7 @@ IP-ASN,211157
 .solidaritetibet.org
 .solidfiles.com
 .solidifi.app
+.solidstate.com
 .solihull.ac.uk
 .solihullsfc.ac.uk
 .solostudioksale.com
@@ -28061,6 +28095,7 @@ IP-ASN,211157
 .sputnikmediabank.com
 .sputniknews.com
 .spyjinx.com
+.spyrothedragon.com
 .sqhwesternconsortium.ac.uk
 .sqlite.org
 .sqlserveronlinux.com
@@ -29888,6 +29923,8 @@ IP-ASN,211157
 .tongil.or.kr
 .tonicmovies.com
 .tono-oka.jp
+.tonyhawk.com
+.tonyhawkthegame.com
 .tonyyan.net
 .toodoc.com
 .toolforge.org
@@ -30088,6 +30125,7 @@ IP-ASN,211157
 .trendsmap.com
 .trendyporn.com
 .tresham.ac.uk
+.treyarch.com
 .trezor.io
 .tri-london.ac.uk
 .trialofccp.org
@@ -33009,6 +33047,7 @@ IP-ASN,211157
 .worldpornvideos.com
 .worldsecureemail.com
 .worldsecuresystems.com
+.worldseriesofwarzone.com
 .worldsex.com
 .worldsfastestgamer.net
 .worldvpn.net
@@ -34012,6 +34051,7 @@ IP-ASN,211157
 .yandex.eu
 .yandex.fi
 .yandex.fr
+.yandex.it
 .yandex.jobs
 .yandex.kg
 .yandex.kz
@@ -34945,14 +34985,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-08-12 02:53:58
+# UPDATED: 2026-08-14 02:55:26
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34679
+# DOMAIN-SUFFIX: 34719
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 35005
+# TOTAL: 35045
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
