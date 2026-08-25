@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-08-24 05:41:44 CST
+# Updated: 2026-08-25 11:10:06 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -45,6 +45,7 @@ DOMAIN-KEYWORD,cili
 DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,chinatalk
 DOMAIN-KEYWORD,fastapi
+DOMAIN-KEYWORD,getspring
 DOMAIN-KEYWORD,hardwarezone
 DOMAIN-KEYWORD,ipinfo
 DOMAIN-KEYWORD,mod
