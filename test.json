@@ -1,13 +1,66 @@
 {
-  "safe": 9007199254740991,
+  "null": null,
+  "true": true,
+  "false": false,
+  "empty_string": "",
+  "string": "Hello, 世界! \n\t\"quote\" \\ slash /",
+  "zero": 0,
+  "negative_zero": -0,
+  "integer": 123456789,
+  "negative_integer": -123456789,
+  "safe_min": -9007199254740991,
+  "safe_max": 9007199254740991,
   "bigint": 9007199254740992,
   "bigint2": 9007199254740993,
+  "negative_bigint": -9007199254740993,
   "huge": 123456789012345678901234567890,
-  "negative": -9007199254740993,
-  "decimal": 9007199254740993.0,
+  "decimal": 123.456,
+  "decimal_big": 9007199254740993.0,
+  "exponent": 1.2345e10,
+  "exponent_negative": 1.2345e-10,
+  "exponent_plus": 1.2345e+10,
+  "unicode": "\u4e2d\u6587",
+  "unicode_escape": "\u0041\u0042\u0043",
+  "unicode_surrogate": "\uD83D\uDE00",
+  "empty_object": {},
+  "empty_array": [],
+  "nested": {
+    "level1": {
+      "level2": {
+        "value": 123
+      }
+    }
+  },
   "array": [
-    1,
+    null,
+    false,
+    true,
+    0,
+    -1,
+    1.5,
     9007199254740993,
-    12345678901234567890
-  ]
+    12345678901234567890,
+    {
+      "key": "value"
+    },
+    [
+      1,
+      2,
+      3
+    ]
+  ],
+  "special_keys": {
+    "__proto__": "test",
+    "constructor": "test",
+    "toString": "test"
+  },
+  "pretty": {
+    "a": 1,
+    "b": 2,
+    "c": [
+      3,
+      4,
+      5
+    ]
+  }
 }
