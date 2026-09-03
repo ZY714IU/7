@@ -1,0 +1,249 @@
+#@@URI
+# 合并测试 - URI分区(预期命中ru管线)
+ss://aes-128-gcm:password-sg@1.2.3.4:443#🇸🇬 新加坡 01
+trojan://trojan-pw-us@5.6.7.8:443?sni=us.example.com&allowInsecure=1#美国 02 洛杉矶
+vless://11111111-2222-3333-4444-555555555555@9.10.11.12:443?encryption=none&security=tls&sni=jp.example.com&type=ws&path=%2Fws#日本 03 东京
+hy2://hy2-pw-hk@13.14.15.16:8443?sni=hk.example.com&obfs=salamander&obfs-password=obfs-hk#🇭🇰 香港 01
+vless://11111111-2222-3333-4444-555555555555@17.18.19.20:443?encryption=none&security=reality&sni=sg-reality.example.com&fp=chrome&pbk=PbKeyBase64X&sid=ab12&type=tcp#新加坡 02 Reality
+tuic://11111111-2222-3333-4444-555555555555:tuic-pw@21.22.23.24:443?congestion_control=bbr&alpn=h3&sni=us-tuic.example.com#美国 03 TUIC
+socks5://user:pass@25.26.27.28:1080#日本 04 SOCKS
+ss://aes-128-gcm:pw-sg2@37.38.39.40:443#新加坡 03 倍率x0.8
+trojan://trojan-pw@41.42.43.44:443?remarks=%E6%97%A5%E6%9C%AC%2005%20remarks&security=tls&sni=jp-tj.example.com
+剩余流量：998.5GB
+套餐到期：2027-12-31
+ss://aes-128-gcm:pw-tk@29.30.31.32:443#土耳其 TK 01
+vless://11111111-2222-3333-4444-555555555555@33.34.35.36:443?encryption=none&security=tls#官网 example.com
+
+#@@YAML
+# 合并测试 - YAML分区(预期命中ry管线, 25节点→22行)
+proxies:
+  - name: "🇸🇬 新加坡 01"
+    type: ss
+    server: 1.2.3.4
+    port: 443
+    cipher: aes-128-gcm
+    password: "pw-sg-01"
+    udp: true
+  - name: 美国 01 洛杉矶
+    type: ss
+    server: 5.6.7.8
+    port: 8443
+    cipher: chacha20-ietf-poly1305
+    password: pw-us-01
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: us-obfs.example.com
+  - name: "日本 01 东京"
+    type: ss
+    server: 9.10.11.12
+    port: 443
+    cipher: aes-256-gcm
+    password: pw-jp-01
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      path: /ss-ws
+      host: jp-v2ray.example.com
+      tls: true
+  - name: "🇭🇰 香港 01"
+    type: ss
+    server: 13.14.15.16
+    port: 443
+    cipher: aes-128-gcm
+    password: pw-hk-01
+    plugin: shadow-tls
+    plugin-opts:
+      password: stls-pw
+      host: hk-stls.example.com
+      version: 3
+  - name: 新加坡 02 倍率x1.5
+    type: ssr
+    server: 17.18.19.20
+    port: 443
+    cipher: aes-128-cfb
+    password: pw-ssr
+    protocol: auth_aes128_md5
+    protocol-param: "32:1234"
+    obfs: tls1.2_ticket_auth
+    obfs-param: sg-ssr.example.com
+  - name: 香港 02
+    type: vmess
+    server: 21.22.23.24
+    port: 443
+    uuid: 11111111-2222-3333-4444-555555555555
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 美国 02 硅谷
+    type: vmess
+    server: 25.26.27.28
+    port: 443
+    uuid: 11111111-2222-3333-4444-555555555555
+    alterId: 0
+    cipher: auto
+    tls: true
+    servername: us-vm-ws.example.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vm-ws
+      headers:
+        Host: us-vm-ws.example.com
+  - name: 日本 02 大阪
+    type: vmess
+    server: 29.30.31.32
+    port: 443
+    uuid: 11111111-2222-3333-4444-555555555555
+    alterId: 0
+    cipher: auto
+    network: grpc
+    grpc-opts:
+      grpc-service-name: jp-vm-grpc
+  - name: 新加坡 03
+    type: vmess
+    server: 33.34.35.36
+    port: 443
+    uuid: 11111111-2222-3333-4444-555555555555
+    alterId: 0
+    cipher: auto
+    network: h2
+    http-opts:
+      path: [/vm-h2]
+      headers:
+        Host: [sg-vm-h2.example.com]
+  - name: 香港 03 IPLC
+    type: trojan
+    server: 37.38.39.40
+    port: 443
+    password: pw-tj-hk
+    sni: hk-tj.example.com
+    skip-cert-verify: true
+  - name: 美国 03
+    type: trojan
+    server: 41.42.43.44
+    port: 443
+    password: pw-tj-us
+    network: ws
+    ws-opts:
+      path: /tj-ws
+      headers: { Host: us-tj-ws.example.com }
+  - name: 日本 03
+    type: vless
+    server: 45.46.47.48
+    port: 443
+    uuid: 11111111-2222-3333-4444-555555555555
+    tls: true
+    servername: jp-vless.example.com
+    network: ws
+    ws-opts:
+      path: /vl-ws
+  - name: 香港 04 Reality
+    type: vless
+    server: 49.50.51.52
+    port: 443
+    uuid: 11111111-2222-3333-4444-555555555555
+    network: tcp
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: PbKeyBase64Example
+      short-id: "0123abcd"
+  - name: 新加坡 04
+    type: vless
+    server: 53.54.55.56
+    port: 443
+    uuid: 11111111-2222-3333-4444-555555555555
+    network: grpc
+    grpc-opts:
+      grpc-service-name: sg-vl-grpc
+  - name: 美国 04 Hysteria2
+    type: hysteria2
+    server: 57.58.59.60
+    port: 443
+    password: pw-hy2
+    obfs-password: obfs-hy2
+    sni: us-hy2.example.com
+    skip-cert-verify: true
+  - name: 日本 04 AnyTLS
+    type: anytls
+    server: 61.62.63.64
+    port: 443
+    password: pw-anytls
+    sni: jp-anytls.example.com
+  - name: 香港 05 HTTP
+    type: http
+    server: 65.66.67.68
+    port: 443
+    username: http-user
+    password: http-pw
+    tls: true
+  - name: 新加坡 05 SOCKS
+    type: socks5
+    server: 69.70.71.72
+    port: 1080
+    username: socks-user
+    password: socks-pw
+    tls: true
+    skip-cert-verify: true
+  - name: 美国 05 WireGuard
+    type: wireguard
+    server: 73.74.75.76
+    port: 51820
+    ip: 172.16.0.2
+    ipv6: "fd01:5ca1:ab1e::2"
+    private-key: "WG-PrivateKeyBase64=="
+    public-key: "WG-PublicKeyBase64="
+    preshared-key: "WG-PskBase64="
+    dns: [1.1.1.1, 8.8.8.8]
+    keepalive: 25
+    reserved: [1, 2, 3]
+  - name: 日本 05 TUIC
+    type: tuic
+    server: 77.78.79.80
+    port: 443
+    uuid: 11111111-2222-3333-4444-555555555555
+    password: pw-tuic
+  - {name: "香港 06, 含逗号", type: ss, server: 81.82.83.84, port: 443, cipher: aes-128-gcm, password: "pw,含逗号", udp: true}
+  - name: 剩余流量：888.8GB
+    type: ss
+    server: 85.86.87.88
+    port: 443
+    cipher: aes-128-gcm
+    password: pw-info
+  - name: 套餐到期：2027-06-30
+    type: ss
+    server: 89.90.91.92
+    port: 443
+    cipher: aes-128-gcm
+    password: pw-info2
+  - name: 土耳其 TK 99
+    type: ss
+    server: 93.94.95.96
+    port: 443
+    cipher: aes-128-gcm
+    password: pw-tk
+  - name: "官网: example.com"
+    type: ss
+    server: 97.98.99.100
+    port: 443
+    cipher: aes-128-gcm
+    password: pw-web
+
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - 自动选择
+rules:
+  - MATCH,PROXY
+
+#@@LOON
+# 合并测试 - LOON分区(预期命中rt管线)
+🇸🇬 新加坡 01 = Shadowsocks,1.2.3.4,443,aes-128-gcm,"pw-sg"
+美国 01 = Shadowsocks,5.6.7.8,443,chacha20-ietf-poly1305,"pw-us"
+日本 01 = vmess,9.10.11.12,443,auto,"11111111-2222-3333-4444-555555555555",transport=ws,path=/ws,host=jp.example.com,over-tls=true
+🇭🇰 香港 01 = trojan,13.14.15.16,443,"pw-hk",transport=tcp,over-tls=true,sni=hk.example.com
+新加坡 02 倍率x2 = Shadowsocks,17.18.19.20,443,aes-128-gcm,"pw-sg2"
+剩余流量：777.7GB
+套餐到期：2027-03-31
+土耳其 TK 99 = Shadowsocks,29.30.31.32,443,aes-128-gcm,"pw-tk"
