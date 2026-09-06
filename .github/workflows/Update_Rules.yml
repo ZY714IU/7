@@ -10,6 +10,10 @@ on:
       - "Rules/Proxy.txt"
       - ".github/workflows/Update_Rules.yml"
 
+concurrency:
+  group: update-rules
+  cancel-in-progress: false
+
 jobs:
   update-rules:
     runs-on: ubuntu-latest
@@ -26,6 +30,7 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
+          set -euo pipefail
           curl -fsSL -H "Authorization: Bearer ${TOKEN}" -o Direct.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Direct.txt" &
           curl -fsSL -H "Authorization: Bearer ${TOKEN}" -o Proxy.list "https://raw.githubusercontent.com/ZY714IU/7/main/Rules/Proxy.txt" &
           curl -fsSL -o China_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Domain.list" &
@@ -35,132 +40,138 @@ jobs:
           curl -fsSL -o China_All.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list" &
           curl -fsSL -o Global_All.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list" &
           wait
+          test -s Direct.list
+          test -s Proxy.list
+          test -s China_Domain.list
+          test -s China_Resolve.list
+          test -s Global_Domain.list
+          test -s Global_Resolve.list
+          test -s China_All.list
+          test -s Global_All.list
 
-      # Loon China
       - name: Generate Loon/China.txt
         run: |
+          set -euo pipefail
           mkdir -p Rules/Loon
           tmp=$(mktemp)
-
-          [ -s Direct.list ] && cat Direct.list >> "$tmp"
-          [ -s China_Domain.list ] && printf "\n\n" >> "$tmp" && cat China_Domain.list >> "$tmp"
-          [ -s China_Resolve.list ] && printf "\n\n" >> "$tmp" && cat China_Resolve.list >> "$tmp"
+          cat Direct.list >> "$tmp"
+          printf "\n\n" >> "$tmp"
+          cat China_Domain.list >> "$tmp"
+          printf "\n\n" >> "$tmp"
+          cat China_Resolve.list >> "$tmp"
           printf "\nGEOIP,CN\n" >> "$tmp"
-
           sed -i 's/\r$//' "$tmp"
-          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
-
+          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n"
+          mv "${tmp}.n" "$tmp"
           target="Rules/Loon/China.txt"
           if [ -f "$target" ]; then
             tail -n +4 "$target" > "${target}.rules"
           else
             touch "${target}.rules"
           fi
-
           if cmp -s "$tmp" "${target}.rules"; then
             echo "Loon/China.txt 无变化"
           else
             echo "Loon/China.txt 已更新"
-            echo "# Name: China.txt" > "$target"
-            echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')" >> "$target"
-            echo "" >> "$target"
-            cat "$tmp" >> "$target"
+            {
+              echo "# Name: China.txt"
+              echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')"
+              echo ""
+              cat "$tmp"
+            } > "$target"
           fi
-
           rm -f "$tmp" "${target}.rules"
 
-      # Loon Global
       - name: Generate Loon/Global.txt
         run: |
+          set -euo pipefail
           mkdir -p Rules/Loon
           tmp=$(mktemp)
-
-          [ -s Proxy.list ] && cat Proxy.list >> "$tmp"
-          [ -s Global_Domain.list ] && printf "\n\n" >> "$tmp" && cat Global_Domain.list >> "$tmp"
-          [ -s Global_Resolve.list ] && printf "\n\n" >> "$tmp" && cat Global_Resolve.list >> "$tmp"
-
+          cat Proxy.list >> "$tmp"
+          printf "\n\n" >> "$tmp"
+          cat Global_Domain.list >> "$tmp"
+          printf "\n\n" >> "$tmp"
+          cat Global_Resolve.list >> "$tmp"
           sed -i 's/\r$//' "$tmp"
-          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
-
+          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n"
+          mv "${tmp}.n" "$tmp"
           target="Rules/Loon/Global.txt"
           if [ -f "$target" ]; then
             tail -n +4 "$target" > "${target}.rules"
           else
             touch "${target}.rules"
           fi
-
           if cmp -s "$tmp" "${target}.rules"; then
             echo "Loon/Global.txt 无变化"
           else
             echo "Loon/Global.txt 已更新"
-            echo "# Name: Global.txt" > "$target"
-            echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')" >> "$target"
-            echo "" >> "$target"
-            cat "$tmp" >> "$target"
+            {
+              echo "# Name: Global.txt"
+              echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')"
+              echo ""
+              cat "$tmp"
+            } > "$target"
           fi
-
           rm -f "$tmp" "${target}.rules"
 
-      # Egern China
       - name: Generate Egern/China.txt
         run: |
+          set -euo pipefail
           mkdir -p Rules/Egern
           tmp=$(mktemp)
-
-          [ -s Direct.list ] && cat Direct.list >> "$tmp"
-          [ -s China_All.list ] && printf "\n\n" >> "$tmp" && cat China_All.list >> "$tmp"
-
+          cat Direct.list >> "$tmp"
+          printf "\n\n" >> "$tmp"
+          cat China_All.list >> "$tmp"
           sed -i 's/\r$//' "$tmp"
-          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
-
+          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n"
+          mv "${tmp}.n" "$tmp"
           target="Rules/Egern/China.txt"
           if [ -f "$target" ]; then
             tail -n +4 "$target" > "${target}.rules"
           else
             touch "${target}.rules"
           fi
-
           if cmp -s "$tmp" "${target}.rules"; then
             echo "Egern/China.txt 无变化"
           else
             echo "Egern/China.txt 已更新"
-            echo "# Name: China.txt" > "$target"
-            echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')" >> "$target"
-            echo "" >> "$target"
-            cat "$tmp" >> "$target"
+            {
+              echo "# Name: China.txt"
+              echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')"
+              echo ""
+              cat "$tmp"
+            } > "$target"
           fi
-
           rm -f "$tmp" "${target}.rules"
 
-      # Egern Global
       - name: Generate Egern/Global.txt
         run: |
+          set -euo pipefail
           mkdir -p Rules/Egern
           tmp=$(mktemp)
-
-          [ -s Proxy.list ] && cat Proxy.list >> "$tmp"
-          [ -s Global_All.list ] && printf "\n\n" >> "$tmp" && cat Global_All.list >> "$tmp"
-
+          cat Proxy.list >> "$tmp"
+          printf "\n\n" >> "$tmp"
+          cat Global_All.list >> "$tmp"
           sed -i 's/\r$//' "$tmp"
-          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n" && mv "${tmp}.n" "$tmp"
-
+          awk 'BEGIN{b=0} /^$/ {b++; if(b==1) print; next} {b=0; print}' "$tmp" > "${tmp}.n"
+          mv "${tmp}.n" "$tmp"
           target="Rules/Egern/Global.txt"
           if [ -f "$target" ]; then
             tail -n +4 "$target" > "${target}.rules"
           else
             touch "${target}.rules"
           fi
-
           if cmp -s "$tmp" "${target}.rules"; then
             echo "Egern/Global.txt 无变化"
           else
             echo "Egern/Global.txt 已更新"
-            echo "# Name: Global.txt" > "$target"
-            echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')" >> "$target"
-            echo "" >> "$target"
-            cat "$tmp" >> "$target"
+            {
+              echo "# Name: Global.txt"
+              echo "# Updated: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')"
+              echo ""
+              cat "$tmp"
+            } > "$target"
           fi
-
           rm -f "$tmp" "${target}.rules"
 
       - name: Cleanup temporary files
@@ -172,10 +183,15 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Rules/Loon/China.txt Rules/Loon/Global.txt
           git add Rules/Egern/China.txt Rules/Egern/Global.txt
-          git diff --staged --quiet || git commit -m "Update China.txt & Global.txt [skip ci]"
-          git pull origin main --no-rebase
+          if git diff --staged --quiet; then
+            echo "规则无变化，无需提交"
+            exit 0
+          fi
+          git commit -m "Update China.txt & Global.txt"
+          git pull --rebase origin main
           git push origin HEAD:main
