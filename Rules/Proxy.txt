@@ -91,7 +91,6 @@ DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-SUFFIX,webtest.net
 DOMAIN-KEYWORD,speedtest
-USER-AGENT,speedtest*
 
 # Stay
 DOMAIN-SUFFIX,bugsnag.com
