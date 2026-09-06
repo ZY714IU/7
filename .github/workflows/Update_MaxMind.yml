@@ -2,7 +2,7 @@ name: Update MaxMind
 
 on:
   schedule:
-    - cron: "30 21 * * 3"
+    - cron: "30 21 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -12,49 +12,64 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - uses: actions/checkout@v7
+      - name: Checkout
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.TOKEN }}
+          fetch-depth: 1
 
       - name: Download MaxMind databases
         env:
+          ACCOUNT_ID: ${{ secrets.MAXMIND_ACCOUNT_ID }}
           LICENSE_KEY: ${{ secrets.MAXMIND_GEOLITE2_LICENSE }}
         run: |
           set -euo pipefail
-          mkdir -p ./Maxmind
+          mkdir -p Maxmind
+          BASE_URL="https://download.maxmind.com/geoip/databases"
 
-          BASE_URL="https://download.maxmind.com/app/geoip_download?license_key=${LICENSE_KEY}"
+          curl -fsSL --retry 3 --retry-delay 5 \
+            -u "${ACCOUNT_ID}:${LICENSE_KEY}" \
+            "${BASE_URL}/GeoLite2-ASN/download?suffix=tar.gz" \
+            -o Maxmind/GeoLite2-ASN.tar.gz
 
-          declare -A FILES=(
-            ["GeoLite2-ASN"]="tar.gz"
-            ["GeoLite2-ASN-CSV"]="zip"
-            ["GeoLite2-Country"]="tar.gz"
-            ["GeoLite2-Country-CSV"]="zip"
-          )
+          curl -fsSL --retry 3 --retry-delay 5 \
+            -u "${ACCOUNT_ID}:${LICENSE_KEY}" \
+            "${BASE_URL}/GeoLite2-ASN-CSV/download?suffix=zip" \
+            -o Maxmind/GeoLite2-ASN-CSV.zip
 
-          for edition in "${!FILES[@]}"; do
-            suffix="${FILES[$edition]}"
-            out="./Maxmind/${edition}.${suffix}"
+          curl -fsSL --retry 3 --retry-delay 5 \
+            -u "${ACCOUNT_ID}:${LICENSE_KEY}" \
+            "${BASE_URL}/GeoLite2-Country/download?suffix=tar.gz" \
+            -o Maxmind/GeoLite2-Country.tar.gz
 
-            echo "Downloading ${edition}..."
-            curl -fsSL --max-time 300 \
-              "${BASE_URL}&edition_id=${edition}&suffix=${suffix}" \
-              -o "${out}"
+          curl -fsSL --retry 3 --retry-delay 5 \
+            -u "${ACCOUNT_ID}:${LICENSE_KEY}" \
+            "${BASE_URL}/GeoLite2-Country-CSV/download?suffix=zip" \
+            -o Maxmind/GeoLite2-Country-CSV.zip
 
-            echo "Verifying ${edition}..."
-            expected=$(curl -fsSL --max-time 30 \
-              "${BASE_URL}&edition_id=${edition}&suffix=${suffix}.sha256" \
-              | awk '{print $1}')
-            echo "${expected}  ${out}" | sha256sum -c -
-          done
+      - name: Extract MMDB
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/maxmind
+          mkdir -p /tmp/maxmind
+
+          tar -xzf Maxmind/GeoLite2-ASN.tar.gz -C /tmp/maxmind
+          cp "$(find /tmp/maxmind -name 'GeoLite2-ASN.mmdb' -print -quit)" Maxmind/ASN.mmdb
+
+          rm -rf /tmp/maxmind/*
+          tar -xzf Maxmind/GeoLite2-Country.tar.gz -C /tmp/maxmind
+          cp "$(find /tmp/maxmind -name 'GeoLite2-Country.mmdb' -print -quit)" Maxmind/Country.mmdb
 
       - name: Commit and push
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Maxmind/
           git diff --cached --quiet && exit 0
-          git commit -m "chore: update MaxMind databases $(date -u '+%Y-%m-%d')"
+          git commit -m "chore: update MaxMind databases"
           git push
