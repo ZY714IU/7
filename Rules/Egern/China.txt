@@ -1,5 +1,5 @@
 # Name: China.txt
-# Updated: 2026-06-22 06:39:23 CST
+# Updated: 2026-09-07 01:16:05 CST
 
 # Apple
 DOMAIN,testflight.apple.com
@@ -55,8 +55,6 @@ DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,semianalysis.com
 DOMAIN-SUFFIX,theiphonewiki.com
 DOMAIN-SUFFIX,volcvideos.com
-DOMAIN-SUFFIX,xiazaitool.com
-DOMAIN-SUFFIX,xiageba.com
 DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,kelee.one
 DOMAIN-SUFFIX,ddgksf2013.top
@@ -78,6 +76,7 @@ DOMAIN-KEYWORD,stgowan
 DOMAIN-KEYWORD,wasu
 DOMAIN-KEYWORD,xfsub
 DOMAIN-KEYWORD,xfltd
+DOMAIN-KEYWORD,xiageba
 DOMAIN-KEYWORD,zztfly
 IP-CIDR6,2403:300::/32
 IP-CIDR6,2620:149::/32
