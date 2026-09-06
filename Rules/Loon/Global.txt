@@ -1,43 +1,45 @@
 # Name: Global.txt
-# Updated: 2026-09-06 07:02:03 CST
+# Updated: 2026-09-06 08:38:02 CST
 
 # Others
 DOMAIN,apk.ish.app
+DOMAIN-SUFFIX,avjiali.com
 DOMAIN-SUFFIX,anti-ad.net
 DOMAIN-SUFFIX,asiatimes.com
 DOMAIN-SUFFIX,actionnetwork.org
 DOMAIN-SUFFIX,asiafinancial.com
 DOMAIN-SUFFIX,assetsconfigcdn.org
-DOMAIN-SUFFIX,avjiali.com
+DOMAIN-SUFFIX,buff.ly
 DOMAIN-SUFFIX,beyondwickedmapping.org
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
-DOMAIN-SUFFIX,buff.ly
-DOMAIN-SUFFIX,defensenews.com
 DOMAIN-SUFFIX,dler.io
+DOMAIN-SUFFIX,defensenews.com
 DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,featureassets.org
-DOMAIN-SUFFIX,fifthdomain.com
 DOMAIN-SUFFIX,forbes.com
-DOMAIN-SUFFIX,geekflare.com
+DOMAIN-SUFFIX,fifthdomain.com
+DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,gsmarena.com
+DOMAIN-SUFFIX,geekflare.com
 DOMAIN-SUFFIX,theglobeandmail.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,icct.cloud
 DOMAIN-SUFFIX,kelee.one
 DOMAIN-SUFFIX,ncloud.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,pagenudge.com
 DOMAIN-SUFFIX,phonearena.com
 DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,rss4all.com
 DOMAIN-SUFFIX,restofworld.org
-DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,subapp.cc
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,storebot.me
 DOMAIN-SUFFIX,skladchik.com
-DOMAIN-SUFFIX,smsreceivefree.com
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,sub-stores.com
-DOMAIN-SUFFIX,subapp.cc
 DOMAIN-SUFFIX,subconverter.com
+DOMAIN-SUFFIX,smsreceivefree.com
 DOMAIN-SUFFIX,usnews.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,wsj.com
@@ -50,8 +52,8 @@ DOMAIN-KEYWORD,getspring
 DOMAIN-KEYWORD,hardwarezone
 DOMAIN-KEYWORD,ipinfo
 DOMAIN-KEYWORD,mod
-DOMAIN-KEYWORD,mtiproxy
 DOMAIN-KEYWORD,madbots
+DOMAIN-KEYWORD,mtiproxy
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,politico
 DOMAIN-KEYWORD,shadowsocks
@@ -104,7 +106,6 @@ DOMAIN-KEYWORD,shenyin
 DOMAIN-KEYWORD,stayfork
 
 # Telegram
-DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,imem.app
 DOMAIN-SUFFIX,mbrx.app
@@ -114,7 +115,7 @@ DOMAIN-KEYWORD,applovin
 DOMAIN-KEYWORD,bingviz
 DOMAIN-KEYWORD,nicegram
 DOMAIN-KEYWORD,scorecardresearch
-USER-AGENT,telegram*
+DOMAIN-KEYWORD,telegram
 IP-CIDR,5.28.192.0/18
 IP-CIDR,95.161.76.100/32
 IP-CIDR,139.59.210.98/32
