@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-09-07 01:16:05 CST
+# Updated: 2026-09-08 07:36:29 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -129,14 +129,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-09-06 03:52:55
+# UPDATED: 2026-09-08 05:03:08
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34756
+# DOMAIN-SUFFIX: 34762
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 35082
+# TOTAL: 35088
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -180,6 +180,8 @@ IP-ASN,211157
 .119474.xyz
 .11jav.com
 .123-hp.com
+.123av.com
+.123av.me
 .123bin.cc
 .123dapp.com
 .123dappipad.com
@@ -25871,6 +25873,7 @@ IP-ASN,211157
 .roborecall.com
 .robotoffice.com
 .robustnessiskey.com
+.roc-taiwan.org
 .rochdalesfc.ac.uk
 .rocket-inc.net
 .rocket.chat
@@ -25941,6 +25944,7 @@ IP-ASN,211157
 .roughebonysex.com
 .roughman.net
 .roundtable.ac.uk
+.roushuwo.com
 .routerboard.com
 .routesintolanguages.ac.uk
 .routledgehandbooks.com
@@ -28996,6 +29000,7 @@ IP-ASN,211157
 .taiwancon.com
 .taiwandaily.net
 .taiwandc.org
+.taiwanembassy.org
 .taiwanhot.net
 .taiwanjobs.gov.tw
 .taiwanjustice.com
@@ -33154,6 +33159,7 @@ IP-ASN,211157
 .wspcr.ac.uk
 .wtbn.org
 .wtc.ac.uk
+.wtfpass.com
 .wtfpeople.com
 .wtmobile.com
 .wto.org
@@ -35025,14 +35031,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-09-06 03:52:55
+# UPDATED: 2026-09-08 05:03:08
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34756
+# DOMAIN-SUFFIX: 34762
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 35082
+# TOTAL: 35088
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
