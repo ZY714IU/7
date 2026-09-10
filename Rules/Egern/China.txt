@@ -1,5 +1,5 @@
 # Name: China.txt
-# Updated: 2026-09-07 01:16:05 CST
+# Updated: 2026-09-10 10:32:10 CST
 
 # Apple
 DOMAIN,testflight.apple.com
@@ -72,6 +72,7 @@ DOMAIN-KEYWORD,liangzipic
 DOMAIN-KEYWORD,lz-cdn
 DOMAIN-KEYWORD,maccms
 DOMAIN-KEYWORD,maimn
+DOMAIN-KEYWORD,picsew
 DOMAIN-KEYWORD,stgowan
 DOMAIN-KEYWORD,wasu
 DOMAIN-KEYWORD,xfsub
