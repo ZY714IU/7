@@ -186,12 +186,27 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add Rules/Loon/China.txt Rules/Loon/Global.txt
-          git add Rules/Egern/China.txt Rules/Egern/Global.txt
-          if git diff --staged --quiet; then
+
+          # 每个生成文件单独一条commit
+          COMMITTED=0
+          for f in \
+            Rules/Loon/China.txt \
+            Rules/Loon/Global.txt \
+            Rules/Egern/China.txt \
+            Rules/Egern/Global.txt
+          do
+            git add -- "$f"
+            if git diff --staged --quiet; then
+              continue
+            fi
+            git commit -m "Update ${f#Rules/}"
+            COMMITTED=1
+          done
+
+          if [ "$COMMITTED" -eq 0 ]; then
             echo "规则无变化，无需提交"
             exit 0
           fi
-          git commit -m "Update China.txt & Global.txt"
+
           git pull --rebase origin main
           git push origin HEAD:main
