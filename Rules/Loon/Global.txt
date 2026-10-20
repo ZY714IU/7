@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-10-18 07:13:36 CST
+# Updated: 2026-10-20 08:27:51 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -130,14 +130,14 @@ IP-ASN,211157
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-10-18 03:59:10
+# UPDATED: 2026-10-20 05:59:19
 # DOMAIN: 127
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34907
+# DOMAIN-SUFFIX: 34923
 # IP-CIDR: 115
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 35235
+# TOTAL: 35251
 .000webhost.com
 .01.org
 .02weqj32.com
@@ -2972,7 +2972,6 @@ IP-ASN,211157
 .asminternational.org
 .asmrbuluo.com
 .asn-online.org
-.asobostudio.com
 .asp-cc.com
 .asp.net
 .aspbjournals.org
@@ -4126,8 +4125,15 @@ IP-ASN,211157
 .beforeigners.com
 .befuck.com
 .befuck.net
+.beget.app
+.beget.cloud
 .beget.com
+.beget.de
+.beget.hosting
+.beget.pro
 .beget.ru
+.beget.tech
+.begetcdn.cloud
 .begin-trade.com
 .behance.net
 .behaviour4learning.ac.uk
@@ -4188,6 +4194,7 @@ IP-ASN,211157
 .beru.ru
 .besa.ac.uk
 .besc.ac.uk
+.beserver.ru
 .beside.ac.uk
 .bess.ac.uk
 .best-sex-games.com
@@ -4321,6 +4328,7 @@ IP-ASN,211157
 .bfsh.hk
 .bftv.ac.uk
 .bgc.ac.uk
+.bget.ru
 .bgicdn.com
 .bgm.tv
 .bgme.me
@@ -7998,6 +8006,7 @@ IP-ASN,211157
 .cursor.com
 .cursor.sh
 .cursorapi.com
+.cursorvm.com
 .curve.fi
 .curvefish.com
 .curvybbwwives.com
@@ -11715,7 +11724,6 @@ IP-ASN,211157
 .flickr.net
 .flickrhivemind.net
 .flickriver.com
-.flightsimulator.com
 .fling.com
 .flipboard.com
 .flipfap.com
@@ -23035,6 +23043,7 @@ IP-ASN,211157
 .opdems.ac.uk
 .open.ac.uk
 .open.com.hk
+.openai.org
 .openallweb.com
 .openamt.com
 .openapiplatform.com
@@ -25058,6 +25067,7 @@ IP-ASN,211157
 .putlocker.com
 .putty.org
 .puuko.com
+.pv-cdn.net
 .pvp.net
 .pvp.tv
 .pvt.sexy
@@ -26598,6 +26608,7 @@ IP-ASN,211157
 .schwab.com.hk
 .schwab.com.sg
 .schwabassetmanagement.com
+.schwabcdn.com
 .schwabplan.com
 .sci-hub.it.nf
 .sci-hub.mksa.top
@@ -28223,6 +28234,7 @@ IP-ASN,211157
 .sprite.org
 .sproutcore.com
 .sproxy.info
+.sprut.io
 .spsrn.ac.uk
 .sptvbroadcast.com
 .spurgeons.ac.uk
@@ -29947,6 +29959,8 @@ IP-ASN,211157
 .timestalks.com
 .timeweb.cloud
 .timeweb.com
+.timeweb.tech
+.timewebcloud.kz
 .timi1.me
 .timo0.com
 .timsah.com
@@ -30742,6 +30756,7 @@ IP-ASN,211157
 .typekit.net
 .typenetwork.com
 .typepad.com
+.typesafe.ai
 .typeset.io
 .typesquare.com
 .typography.com
@@ -33638,6 +33653,7 @@ IP-ASN,211157
 .xn--90ab.com
 .xn--90ab2c.xn--p1ai
 .xn--90absjljw3g.xn--p1ai
+.xn--90aefb9d.xn--p1ai
 .xn--90aifd0az.shop
 .xn--90aifd0azb.xn--p1acf
 .xn--90wwvt03e.com
@@ -35176,14 +35192,14 @@ ztedevices.com
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-10-18 03:59:10
+# UPDATED: 2026-10-20 05:59:19
 # DOMAIN: 127
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34907
+# DOMAIN-SUFFIX: 34923
 # IP-CIDR: 115
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 35235
+# TOTAL: 35251
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
