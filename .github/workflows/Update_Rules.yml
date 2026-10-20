@@ -187,7 +187,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 每个生成文件单独一条commit
           COMMITTED=0
           for f in \
             Rules/Loon/China.txt \
