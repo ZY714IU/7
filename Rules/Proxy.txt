@@ -44,7 +44,6 @@ DOMAIN-SUFFIX,wallstreetcn.com
 DOMAIN-KEYWORD,cili
 DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,chinatalk
-DOMAIN-KEYWORD,workers
 DOMAIN-KEYWORD,fastapi
 DOMAIN-KEYWORD,getspring
 DOMAIN-KEYWORD,hardwarezone
