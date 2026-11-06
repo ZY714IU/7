@@ -1,5 +1,5 @@
 # Name: Global.txt
-# Updated: 2026-11-04 23:09:23 CST
+# Updated: 2026-11-06 09:56:32 CST
 
 # Others
 DOMAIN,apk.ish.app
@@ -59,6 +59,7 @@ DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,politico
 DOMAIN-KEYWORD,shadowsocks
 DOMAIN-KEYWORD,subconverter
+DOMAIN-KEYWORD,v2core
 DOMAIN-KEYWORD,webmaster
 DOMAIN-KEYWORD,xai
 
